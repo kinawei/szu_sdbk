@@ -1,0 +1,86 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    background: #0f232f;
+}
+@media only screen and (min-width: 420px) {
+	.container {
+		width: 420px;
+		margin: 0 auto;
+	}
+}
+.header {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	background: #F9F9F9;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	z-index: 1000;
+}
+.header h1 {
+	color: #2B2B2B;
+	font-size: 24px;
+	line-height: 50px;
+}
+
+.dorm {
+	padding-top: 60px;
+}
+.dormArea, .dormId, .code, .confirm {
+	width: 100%;
+	float: left;
+	padding: 10px 30px;
+	color: #FFF;
+	line-height: 30px;
+}
+.dormArea-select, .dormId-input {
+	width: 50%;
+	float: left;
+	padding: 5px;
+}
+.dormArea-label, .dormId-label, .code-label, .code-input, .code-img {
+	width: 33.33333333%;
+	float: left;
+	padding: 5px;
+}
+.dormArea-label, .dormId-label, .code-label {
+	text-align: right;
+	font-size: 16px;
+	padding-left: 0;
+}
+.dorm input, select {
+	width: 100%;
+	height: 30px;
+	border-radius: 3px;
+	padding: 3px 5px;
+	font-size: 14px;
+    background: #FFF;
+}
+.confirm input {
+	width: 100%;
+	height: 40px;
+	border-radius: 3px;
+	background: #6bacff;
+	color: #FFF;
+	font-size: 16px;
+}
+.confirm input:active {
+	background: #2a60ae;
+}
+
+.warning-container {
+	padding: 10px 20px;
+	padding-top: 20px;
+}
+.warning-container .warning {
+	width: 100%;
+	height: 50px;
+	background: #FFF;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 24px;
+	color: #FF0000;
+}

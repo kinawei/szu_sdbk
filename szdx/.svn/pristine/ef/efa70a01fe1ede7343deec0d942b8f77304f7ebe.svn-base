@@ -1,0 +1,20 @@
+<?php
+
+$dj = new SaeDeferredJob();
+
+$jobid = (is_numeric($_GET['id'])) ? $_GET['id'] : exit();
+
+
+switch ($jobid) {
+    case 1: 
+    	$taskID=$dj->addTask("export", "mysql", "backup", "backup-".time().".sql.zip", "app_szdx", "sdbk_user", "", true);
+        if($taskID === false)
+            var_dump($dj->errno(), $dj->errmsg());
+		else
+            var_dump($taskID);
+    	break;
+
+}
+
+
+?>

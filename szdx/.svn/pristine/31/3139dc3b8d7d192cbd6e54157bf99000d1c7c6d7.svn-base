@@ -1,0 +1,147 @@
+<?php
+require_once '../libs/pdo.class.php';
+require_once '../config.php';
+require_once '../libs/weixin.class.php';
+$db = new lpdo($_pdo);
+$obj = new weixin(APPID, APPSECRET);
+$token = $obj->getToken();
+$token = json_decode($token, true);
+
+$curl = curl_init();
+curl_setopt($curl, CURLOPT_HEADER, 0);
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+
+function httpGet ($url) {
+    global $curl;
+    curl_setopt($curl, CURLOPT_URL, 'http://cie.szu.edu.cn/antennas/sdbk/proxy1.php?url='.urlencode($url));
+    $request = curl_exec($curl);
+    return $request;
+}
+
+$source = httpGet('http://www.szu.edu.cn/board/');
+$source = preg_replace('/\s{2,}|\r|\n/', '', iconv('GBK', 'UTF-8', $source));
+
+// 获取列表区域的HTML代码
+$listAreaPattern = '/<table border="0" cellpadding=3 style="border-collapse: collapse" width="98%">(.+)<\/table>/';
+preg_match($listAreaPattern, $source, $listArea);
+$listArea = $listArea[1];
+
+// 获取每行数据
+$listsPattern = '/<tr [bgcolor=#FFFFFF]*><td align="center">.*<\/td><td align="center" style="font-size: 9pt">.*<\/td><td align="center" style="font-size: 9pt">.*<\/td><td>.*<\/td><td align="center">.*<\/td><td align="center" style="font-size: 9pt">.*<\/td><\/tr>/U';
+preg_match_all($listsPattern, $listArea, $lists);
+$lists = $lists[0];
+
+// 解析每行数据
+$items = array();
+foreach ($lists as $list) {
+    $item = array();
+
+    // 获取类别
+    preg_match('/<a href="\?infotype=[^"]*">(.*)<\/a>/U', $list, $temp);
+    $item['type'] = $temp[1];
+    // 获取部门
+    preg_match('/<a href=# onclick="[^"]*">(.*)<\/a>/U', $list, $temp);
+    $item['department'] = $temp[1];
+    // 获取aid和标题
+    preg_match('/<a target=_blank href="view.asp\?id=(\d{6})" class=fontcolor3>(.*)<\/a>/U', $list, $temp);
+    $item['aid'] = $temp[1];
+    $item['title'] = str_replace('·', '', strip_tags($temp[2]));
+    // 是否置顶
+    $item['fixed'] = preg_match('/置顶/', $list) ? 1 : 0;
+    // 是否有附件
+    $item['attachment'] = preg_match('/attach.gif/', $list) ? 1 : 0;
+    // 更新日期
+    preg_match('/(\d{4}-\d{1,2}-\d{1,2})/', $list, $temp);
+    $item['date'] = $temp[1];
+
+    // 获取最后更新时间
+    // $detailPageSrc = file_get_contents('http://cie.szu.edu.cn/antennas/sdbk/proxy.php?url=http://www.szu.edu.cn/board/view.asp?id=' . $aid, false, $context);
+    $detailPageSrc = httpGet('http://www.szu.edu.cn/board/view.asp?id=' . $item['aid']);
+    $detailPageSrc = iconv('GBK', 'UTF-8', $detailPageSrc);
+
+    $fetchedLastEdit = preg_match('/更新于(\d{4}-\d{1,2}-\d{1,2}\s+\d{1,2}:\d{1,2}:\d{1,2})/', $detailPageSrc, $lastEdit);
+
+    if ($fetchedLastEdit) {
+        $item['lastedit'] = $lastEdit[1];
+    } else {
+        $item['lastedit'] = '';
+    }
+
+    array_push($items, $item);
+}
+
+$items = array_reverse($items);
+
+$log = array(
+    'insert' => 0,
+    'update' => 0,
+    'jump' => 0,
+    'changelist' => array()
+);
+
+$db->update('sdbk_board', array('fixed' => 0), array('fixed' => 1));
+
+for ($i = 0; $i < count($items); $i++) {
+    $aid = $items[$i]['aid'];
+
+    $isSaved = $db->get_one('sdbk_board', array('aid' => $aid));
+
+    if ($isSaved) {
+        if ($isSaved['lastedit'] == $items[$i]['lastedit'] && $items[$i]['fixed'] != 1) {
+            $log['jump']++;
+            continue;
+        } else if ($items[$i]['lastedit'] == "") {
+            $log['jump']++;
+            continue;
+        }
+        $items[$i]['fetchtime'] = time() + $i;
+        $db->delete('sdbk_board', array('aid' => $aid));
+        $db->insert('sdbk_board', $items[$i]);
+        if ($items[$i]['fixed'] != 1) {
+            $log['update']++;
+            array_push($log['changelist'], $items[$i]);
+        } else {
+            $log['jump']++;
+        }
+    } else {
+        $items[$i]['fetchtime'] = time() + $i;
+        $db->insert('sdbk_board', $items[$i]);
+        $log['insert']++;
+        array_push($log['changelist'], $items[$i]);
+    }
+    
+}
+
+curl_close($curl);
+
+header('Content-type: application/json');
+echo json_encode($log);
+
+alert($log);
+
+function alert($fetchBoard) {
+    if ($fetchBoard['insert'] + $fetchBoard['update'] == 0) {
+        exit();
+    }
+
+    $template_id = 'GubOb2rVk10m-qbu0cjicpgqcKoZljyi2aqQoQCaHhY';
+
+    global $token;
+    global $obj;
+
+    foreach ($fetchBoard['changelist'] as $item) {
+        $templeurl = 'http://www.wacxt.cn/board/#!/article/' . $item['aid'];
+        $textPic = array(
+            'first' => array('value'=> '有新的公文通！\n\n' . $item['title'], 'color'=> '#F45757'),
+            'keyword1' => array('value'=> '深圳大学', 'color'=> '#333'),
+            'keyword2' => array('value'=> $item['department'], 'color'=> '#333'),
+            'keyword3' => array('value'=> $item['lastedit'], 'color'=> '#333'),
+            'keyword4' => array('value'=> substr(strip_tags($item['article']), 0, 30), 'color'=> '#333'),
+            'remark' => array('value'=> '', 'color'=> '#bbbbbb'),
+        );
+        $obj->pushtemple($token['access_token'], 'ohHvIjoJeahJQ_e1svpDIv2YAlS4', $template_id, $templeurl, $textPic);
+        $obj->pushtemple($token['access_token'], 'ohHvIjmSs7vc2jx6xzxwozfl_bdk', $template_id, $templeurl, $textPic);
+    }
+}
+
+?>

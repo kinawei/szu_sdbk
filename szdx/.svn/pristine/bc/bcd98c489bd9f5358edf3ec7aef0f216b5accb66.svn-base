@@ -1,0 +1,16 @@
+name: szdx
+version: 1
+cron:
+- description: backup
+  url: backup.php
+  schedule: "0 */12 * * *"
+- description: boardPush
+  url: board/fetchlist.php
+  schedule: "*/5 * * * *"
+- description: warnPush
+  url: powerusage/warnCheck.php
+  schedule: "0 8 * * *"
+handle:
+- errordoc: 404 /404.html
+- compress: if ( out_header["Content-type"] ~ "text/javascript" ) compress
+- compress: if ( out_header["Content-type"] ~ "text/css" ) compress

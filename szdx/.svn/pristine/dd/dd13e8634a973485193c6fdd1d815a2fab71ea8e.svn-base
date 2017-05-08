@@ -1,0 +1,135 @@
+<?php
+include '../libs/mysql.class.php';
+include '../config.php';
+$Mysql = new Mysql();
+
+if (isset($_COOKIE["openid"]) && isset($_COOKIE['secret'])) {
+	if ($_COOKIE["secret"] != md5($_COOKIE["openid"])) {
+		header("Location: http://szunews.com/passport/?redirect_uri=".urlencode("http://szunews.com/exam"));
+		exit();
+  	}
+  	$openid = $_COOKIE["openid"];
+  	$result = $Mysql->Selects('*', 'sdbk_user', ' `openid` = "'.$openid.'"');
+  	$userinfo = mysql_fetch_array($result);
+  	if ($userinfo['studentNo'] == 0) {
+  		header("Location: http://szunews.com/passport/?redirect_uri=".urlencode("http://szunews.com/exam"));
+  		exit();
+  	}
+} else {
+	header("Location: http://szunews.com/passport/?redirect_uri=".urlencode("http://szunews.com/exam"));
+	exit();
+}
+
+// if ($userinfo['openid'] != 'ohHvIjoJeahJQ_e1svpDIv2YAlS4'){
+// 	echo "系统暂未开放！";
+//     exit();
+// }
+
+$studentNo = $userinfo['studentNo'];
+$examRes = $Mysql->Selects('*', 'sdbk_exam', '`studentNo` = '.$studentNo);
+require_once 'cs.php';echo '<img src="'._cnzzTrackPageView(1256894796).'" width="0" height="0"/>'
+?>
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>考场查询-深大百科</title>
+<link href="http://cdn.szunews.com/res/css/common.min.css" rel="stylesheet">
+<link href="//cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="http://static.szunews.com/exam/css/index.css" rel="stylesheet">
+</head>
+<body>
+<div class="header">
+	<div class="headimg">
+		<img src="<?php echo $userinfo['headimgurl'] ?>">
+	</div>
+	<div class="userinfo">
+		<h1><?php echo $userinfo['studentName'] ?></h1>
+		<p>学号：<?php echo $userinfo['studentNo'] ?></p>
+	</div>
+</div>
+<div class="header-bg">
+	<img src="http://cdn.szunews.com/res/images/1.jpg">
+</div>
+<a href="creatimg.php" class="creatImgBtn"><i class="fa fa-picture-o"></i> 点击保存成图片</a>
+<div class="mainContent">
+	<p style="font-size: 14px;color: #F45757;line-height: 24px; text-align: center; margin-top: 10px">以下考试安排为统一考试科目，非统一安排考试科目请留意任课老师或者相关公文通的通知。</p>
+	<?php
+		if (mysql_num_rows($examRes) == 0) {
+	?>
+	<div class="examPlan">
+		<p class="empty">暂无您的考试信息</p>
+	</div>
+	<?php
+		}
+		$exam = array();
+		$i = 0;
+		while ($examPlan = mysql_fetch_array($examRes)) {
+			$exam[$i]['className'] = $examPlan['className'];
+			$exam[$i]['classNo'] = $examPlan['classNo'];
+			$exam[$i]['examTime'] = $examPlan['examTime'];
+			$exam[$i]['examLocation'] = $examPlan['examLocation'];
+			$exam[$i]['examLocationIn'] = $examPlan['examLocationIn'];
+			$i++;
+		}
+		$n = count($exam);
+		for($a = 0; $a < $n-1; $a++){
+			for($k = 0; $k < $n-$a-1; $k++){
+				$m = explode('月', $exam[$k]['examTime']);
+				$m = (int)substr($m[0], -2);
+				$day = explode('日', $exam[$k]['examTime']);
+				$day = (int)substr($day[0], -2);
+				$h = explode('时', $exam[$k]['examTime']);
+				$h = (int)substr($h[0], -2);
+				$m1 = explode('月', $exam[$k+1]['examTime']);
+				$m1 = (int)substr($m1[0], -2);
+				$day1 = explode('日', $exam[$k+1]['examTime']);
+				$day1 = (int)substr($day1[0], -2);
+				$h1 = explode('时', $exam[$k+1]['examTime']);
+				$h1 = (int)substr($h1[0], -2);
+				if($m > $m1){
+					$kong = $exam[$k+1];
+					$exam[$k+1] = $exam[$k];
+					$exam[$k] = $kong;  
+				} elseif ($m == $m1) {
+					if ($day > $day1) {
+						$kong = $exam[$k+1];
+						$exam[$k+1] = $exam[$k];
+						$exam[$k] = $kong; 
+					} elseif ($day == $day1) {
+						if ($h > $h1) {
+							$kong = $exam[$k+1];
+							$exam[$k+1] = $exam[$k];
+							$exam[$k] = $kong;
+						}
+					}
+				}
+			}
+		}
+		for ($j=0; $j < count($exam); $j++) {
+	?>
+	<div class="examPlan">
+		<div class="examTime">
+			<p><?php echo $exam[$j]['className'] ?></p>
+		</div>
+		<div class="examInfo">
+			<p><i class="fa fa-tag title"> 课程号：</i><?php echo $exam[$j]['classNo'] ?></p>
+			<p><i class="fa fa-clock-o title"> 考试时间：</i><?php echo $exam[$j]['examTime'] ?></p>
+			<p><i class="fa fa-building-o title"> 考试地点：</i><?php echo $exam[$j]['examLocation'] ?>（<?php echo $exam[$j]['examLocationIn'] ?>）</p>
+		</div>
+	</div>
+	<?php
+		}
+	?>
+</div>
+<div class="footer">
+	<p>数据授权：深圳大学教务部</p>
+	<p>深圳大学学生事务服务中心</p>
+	<p>Code by Jason</p>
+	<p>查询期末考试安排，请关注合作微信“深大考试君”</p>
+	<p><img src="http://cdn.iszu.cn/72.pic_hd.jpg" width="100px"></p>
+</div>
+</body>
+</html>

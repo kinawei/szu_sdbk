@@ -1,0 +1,6 @@
+name: szdx
+version: 1024
+cron:
+- description: backup
+  url: job.php?id=1
+  schedule: "* */2 * * *"

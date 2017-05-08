@@ -1,0 +1,122 @@
+<?php
+require_once '../config.php';
+require_once '../libs/pdo.class.php';
+$db = new lpdo($_pdo);
+
+$thisPageUri = 'http://'.$_SERVER['HTTP_HOST'].'/passport/index.php';
+$status = 0;
+$userinfo = array();
+if (isset($_COOKIE['openid'])) {
+    $openid = $_COOKIE['openid'];
+    $userinfo = $db->get_one('sdbk_user', array('openid' => $openid));
+} else {
+    header('Location:https://open.weixin.qq.com/connect/oauth2/authorize?appid='.APPID.'&redirect_uri='.$thisPageUri.'&response_type=code&scope=snsapi_userinfo&state=login#wechat_redirect');
+    exit();
+}
+
+if (isset($_GET['ticket'])) {
+    if ($userinfo['studentNo'] == 0) {
+        $CASserver = 'https://auth.szu.edu.cn/cas.aspx/';      //深圳大学统一身份认证URL**不能修改**
+        $ReturnURL = 'http://swzx.szu.edu.cn/sdbk';   //用户认证后跳回到您的网站，根据实际情况修改
+        $URL = $CASserver . 'serviceValidate?ticket=' . $_GET['ticket'] . '&service='. $ReturnURL;
+        $test = file_get_contents($URL);
+        $userinfo['status'] = 1;
+        $userinfo['data']['studentName']= RegexLog($test, "PName");                 //姓名
+        $userinfo['data']['org']= RegexLog($test, "OrgName");                       //单位
+        $userinfo['data']['sex']= RegexLog($test, "SexName");                       //性别
+        $userinfo['data']['studentNo']= RegexLog($test, "StudentNo");               //学号
+        $userinfo['data']['icAccount']= RegexLog($test, "ICAccount");               //校园卡号
+        // $userinfo['data']['personalId']= RegexLog($test, "personalid");             //身份证号
+        $userinfo['data']['phone']= RegexLog($test, "mobile");
+
+        $cdt = array('openid' => $userinfo['openid']);
+        $cdt1 = array('icAccount' => $userinfo['data']['icAccount']);
+
+        $isBind = $db->get_one('sdbk_user', $cdt1);
+
+        if ($isBind) {
+            $status = 2;
+        } else {
+            $updating = $db->update('sdbk_user', $userinfo['data'], $cdt);
+            if ($updating) {
+                include('../libs/weixin.class.php');
+                $obj = new weixin(APPID, APPSECRET);
+                $template_id = 'Wb7xTyLZt1ruYOQuiJRjanW5YNF55bBTiTDO_YNqQak';
+                $templeurl = 'http://www.wacxt.cn/passport';
+                $token = $obj->getToken();
+                $token = json_decode($token, true);
+                $textPic = array(
+                    'first' => array('value'=> '您已经成功将'.$userinfo['data']['studentName'].'的校园卡与深大百科通行证绑定！\n', 'color'=> '#df4848'),
+                    'keyword1' => array('value'=> $userinfo['data']['icAccount'], 'color'=> '#408ec0'),
+                    'keyword2' => array('value'=> date("Y-m-d h:i:s", time()), 'color'=> '#333'),
+                    'remark' => array('value'=> '\n如果不是本人操作，请联系事务君（微信号：szushiwujun）取消绑定。', 'color'=> '#bbbbbb'),
+                );
+                $obj->pushtemple($token['access_token'], $userinfo['openid'], $template_id, $templeurl, $textPic);
+                if (isset($_COOKIE['redirect_uri'])) {
+                    $redirect_uri = urldecode($_COOKIE['redirect_uri']);
+                    setcookie('redirect_uri', '', time() - 3600);
+                    header('Location: '.$redirect_uri);
+                    exit();
+                }
+                $status = 1;
+            } else {
+                $status = 0;
+            }
+        }
+    } else {
+        if (isset($_COOKIE['redirect_uri'])) {
+            $redirect_uri = urldecode($_COOKIE['redirect_uri']);
+            setcookie('redirect_uri', '', time() - 3600);
+            header('Location: '.$redirect_uri);
+            exit();
+        }
+        $status = 1;
+    }
+}  else {
+    header("Location: index.php");
+}
+
+function RegexLog($xmlString, $subStr){
+    preg_match('/<cas:'.$subStr.'>(.*)<\/cas:'.$subStr.'>/i', $xmlString, $matches);
+    return $matches[1];
+}
+
+?>
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title>深大百科通行证-深大百科</title>
+<link href="http://sdkx.qiniudn.com/res/css/common.min.css" rel="stylesheet">
+<link href="//cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="http://www.wacxt.cn/passport/css/cas.css" rel="stylesheet">
+</head>
+<body>
+<div class="mainContainer">
+    <div class="title">
+        <h1>深大百科通行证</h1>
+    </div>
+    <div class="headimg">
+        <img src="<?php echo $userinfo['headimgurl'];?>">
+    </div>
+    <div class="nickname">
+        <p>欢迎回来，<?php echo $userinfo['nickname'];?></p>
+    </div>
+    <div class="loginStatus">
+        <?php
+            if ($status == 1){
+                echo '<p class="s"><i class="fa fa-check-square-o"> 校园卡绑定成功！</i><br />您可以关闭本页面，接下来事务中心提供的官方查询无需重复登录。</p>';
+            } elseif ($status == 2) {
+                echo '<p class="f"><i class="fa fa-exclamation-triangle"> 校园卡绑定失败</i><br />该校园卡已经绑定过微信账号了！</p>'; 
+            } else {
+                echo '<p class="f"><i class="fa fa-exclamation-triangle"> 校园卡绑定失败</i><br />可能是服务器错误，您可以关闭页面重新尝试登录。</p>'; 
+
+ 
+            }
+        ?>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<?php
+require_once '../config.php';
+require_once '../libs/pdo.class.php';
+$_pdo['charset'] = 'utf8mb4';
+$db = new lpdo($_pdo);
+
+if (isset($_COOKIE['openid'])) {
+    $openid = $_COOKIE['openid'];
+    $userinfo = $db->get_one('sdbk_user', array('openid' => $openid));
+    if ($userinfo['studentNo'] == 0) {
+        header("Location: http://www.wacxt.cn/passport/?redirect_uri=".urlencode("http://www.wacxt.cn/missyou/"));
+        exit();
+    }
+} else {
+    header("Location: http://www.wacxt.cn/passport/?redirect_uri=".urlencode("http://www.wacxt.cn/missyou/"));
+    exit();
+}
+
+$openid = $userinfo['openid'];
+
+$channel = new SaeChannel();
+$comment_url = $channel->createChannel($openid, 1200);
+
+$thisdorm = $db->get_one('sdbk_dorm_new', array('studentNo' => $userinfo['studentNo']));
+
+$chatlog = $db->get_rows('sdbk_missyou_log', array('building' => $thisdorm['building'], 'roomname' => $thisdorm['roomname']), false, array(), 'order by `time` desc limit 0, 30');
+
+$list = $db->query("SELECT COUNT(`studentNo`) FROM sdbk_dorm_new where `building` = '".$thisdorm['building']."' and `roomname` = '".$thisdorm['roomname']."'");
+$newStuCount = $list[0]['COUNT(`studentNo`)'];
+
+$chatlog = array_reverse($chatlog);
+
+echo json_encode(array('url' => $comment_url, 'chatlog' => $chatlog, 'newStuCount' => $newStuCount));
+?>

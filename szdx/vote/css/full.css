@@ -1,0 +1,72 @@
+.backBtn {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: #FFF;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 20px;
+}
+.backBtn a {
+	color: #ff8400;
+}
+
+body {
+	padding: 20px;
+	text-align: justify;
+}
+
+.content {
+	margin-top: 20px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 24px;
+	line-height: 32px;
+}
+
+h2 {
+	font-size: 20px;
+	line-height: 32px;
+}
+
+h3 {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+p {
+	text-indent: 2em;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+table {
+	border: 1px solid #ddd;
+}
+
+th {
+	border: 1px solid #ddd;
+}
+
+tr, td {
+	font-size: 12px;
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+
+img {
+	width: 100%;
+}
+
+.right {
+	text-align: right;
+}
+
+.center {
+	text-align: center;
+}

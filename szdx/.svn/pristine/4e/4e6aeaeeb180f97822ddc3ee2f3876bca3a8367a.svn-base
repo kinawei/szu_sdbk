@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <title>深大快讯照片墙开发思考 | Jason&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="最开始接到听到南区佬（深大快讯老大）提这个想法的时候，感觉挺激动人心的。大概想了想，用到的技术，应该会涉及到之前（表白墙）所不太一样的。所以就励志想把整个项目不管从设计、性能优化、代码等方面都梳理并且用心去做，争取做一个自己比较满意的作品">
+<meta property="og:type" content="article">
+<meta property="og:title" content="深大快讯照片墙开发思考">
+<meta property="og:url" content="http://ijason.cc/2016/06/16/saving-single-dog-develope-and-remark/index.html">
+<meta property="og:site_name" content="Jason's Blog">
+<meta property="og:description" content="最开始接到听到南区佬（深大快讯老大）提这个想法的时候，感觉挺激动人心的。大概想了想，用到的技术，应该会涉及到之前（表白墙）所不太一样的。所以就励志想把整个项目不管从设计、性能优化、代码等方面都梳理并且用心去做，争取做一个自己比较满意的作品">
+<meta property="og:image" content="http://blog.ijason.cc/static/biaobai_szunews_com.png">
+<meta property="og:image" content="http://blog.ijason.cc/static/bbq_mindnode.png">
+<meta property="og:updated_time" content="2016-07-13T14:32:29.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="深大快讯照片墙开发思考">
+<meta name="twitter:description" content="最开始接到听到南区佬（深大快讯老大）提这个想法的时候，感觉挺激动人心的。大概想了想，用到的技术，应该会涉及到之前（表白墙）所不太一样的。所以就励志想把整个项目不管从设计、性能优化、代码等方面都梳理并且用心去做，争取做一个自己比较满意的作品">
+<meta name="twitter:image" content="http://blog.ijason.cc/static/biaobai_szunews_com.png">
+  
+    <link rel="alternative" href="/atom.xml" title="Jason&#39;s Blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay">
+	<code>
+		<br /><br /><br />
+		if (heyJason == 'visible') { <br />
+			&nbsp;&nbsp;&nbsp;&nbsp;console.log('Hey Guys!') <br />
+		}
+	</code>
+</div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="http://sdkx.qiniudn.com/res/lovercjy.jpg" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Jason Chen</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">一个半桶水前端的博客</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						
+						<div class="icon-wrap icon-me hide" data-idx="3">
+							<div class="user"></div>
+							<div class="shoulder"></div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>Menu</li>
+						<li>Tags</li>
+						
+						
+						<li>About</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/jas0ncn" title="github">github</a>
+					        
+								<a class="weibo" target="_blank" href="http://weibo.com/138604948" title="weibo">weibo</a>
+					        
+								<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/innojason" title="zhihu">zhihu</a>
+					        
+								<a class="mail" target="_blank" href="/jason@iszu.cn" title="mail">mail</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/csst/" style="font-size: 10px;">csst</a> <a href="/tags/gulp/" style="font-size: 10px;">gulp</a> <a href="/tags/javascript/" style="font-size: 13.33px;">javascript</a> <a href="/tags/js/" style="font-size: 20px;">js</a> <a href="/tags/jsonp/" style="font-size: 10px;">jsonp</a> <a href="/tags/tengine/" style="font-size: 10px;">tengine</a> <a href="/tags/ubuntu/" style="font-size: 10px;">ubuntu</a> <a href="/tags/vue/" style="font-size: 10px;">vue</a> <a href="/tags/全栈/" style="font-size: 10px;">全栈</a> <a href="/tags/前端/" style="font-size: 16.67px;">前端</a> <a href="/tags/后端/" style="font-size: 10px;">后端</a> <a href="/tags/深大快讯/" style="font-size: 10px;">深大快讯</a> <a href="/tags/腾讯云/" style="font-size: 10px;">腾讯云</a>
+					</div>
+				</section>
+				
+				
+				
+
+				
+				
+				<section class="switch-part switch-part3">
+				
+					<div id="js-aboutme">前端，索狗，谷粉，设计师，啥都懂一点，偶尔写写后端的大二狗。励志要进T的半桶水前端！</div>
+				</section>
+				
+			</div>
+		</div>
+	</header>				
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">Jason Chen</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+			
+				<img lazy-src="http://sdkx.qiniudn.com/res/lovercjy.jpg" class="js-avatar">
+			
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Jason Chen</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">一个半桶水前端的博客</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/jas0ncn" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="http://weibo.com/138604948" title="weibo">weibo</a>
+			        
+						<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/innojason" title="zhihu">zhihu</a>
+			        
+						<a class="mail" target="_blank" href="/jason@iszu.cn" title="mail">mail</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+
+      <div class="body-wrap"><article id="post-saving-single-dog-develope-and-remark" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/06/16/saving-single-dog-develope-and-remark/" class="article-date">
+  	<time datetime="2016-06-16T09:16:36.000Z" itemprop="datePublished">2016-06-16</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      深大快讯照片墙开发思考
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/gulp/">gulp</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/js/">js</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/全栈/">全栈</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/前端/">前端</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/后端/">后端</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/深大快讯/">深大快讯</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>最开始接到听到南区佬（深大快讯老大）提这个想法的时候，感觉挺激动人心的。大概想了想，用到的技术，应该会涉及到之前（表白墙）所不太一样的。所以就励志想把整个项目不管从设计、性能优化、代码等方面都梳理并且用心去做，争取做一个自己比较满意的作品</p>
+</blockquote>
+<a id="more"></a>
+<p>有兴趣的各位可以扫描二维码进照片墙看看。</p>
+<center><br><img src="http://blog.ijason.cc/static/biaobai_szunews_com.png" alt="http://biaobai.szunews.com"><br></center>
+
+<p>以下我会按照平常我们开发的流程来写这篇文章。</p>
+<h2 id="技术选型"><a href="#技术选型" class="headerlink" title="技术选型"></a>技术选型</h2><p>做一个项目最先开始的，肯定离不开技术选型。</p>
+<p>以前我做项目的时候，会比较偏向于直接使用已有的技术、框架或者说js库，但是这次由于是照片墙，对首页的流量和性能的要求比较高，简单点说，表白墙打开得快，而且省流量。</p>
+<p>最开始我想用 <code>Vue</code> 作为前端技术栈，但是这个应用是跑在微信的内置浏览器内的，虽然最近微信全面升级了 x5 内核到 blink 内核了，但是我个人对于新版 x5 内核的性能还是有一点怀疑，所以鉴于大量的图片，还是放弃了 <code>Vue</code> 。后来有个学弟用 <code>Vue</code> 做了官微的毕业照墙，性能来说问题看来是不大的。其实一开始还考虑过 <code>React</code> ，但是问题还是性能，不过比 <code>Vue</code> 好的一点是，<code>React</code> 支持服务端渲染，放弃 <code>React</code> 的另一个原因是，要使用服务端渲染就要使用 <code>NodeJS</code> 作为后端（用 PHP 来进行服务端渲染的话，<code>JSX</code> 语法不知道如何解决），但是一方面 <code>React</code> 还没怎么学，另一方面就是以前都是用 PHP 开发的后端，采用 <code>NodeJS</code> 的话，之前的 PHP 代码复用是一个大问题。</p>
+<p>放弃了采用 <code>MVVM</code> 框架的想法后，随之而来的一些问题就需要自己解决了，例如点赞的 <code>DOM</code> 操作、<code>Ajax</code> 请求、交互动画等。本来想引入 jq 的，但是考虑到整个页面本身就很大了，jq 就算是 gzip 压缩，也有 34K ，再加上本身使用到的 api 就不多（ <code>DOM</code> 操作、<code>Ajax</code>），引入整个 jq 对于移动端的应用来说，实在是太大了。也为了锻炼自己，前端使用的 <code>DOM</code> 操作、<code>Ajax</code>的 js 我自己封装了一个。相比 jq ，我封装出来的有需要的 api 仅仅 3K （这里不是说 jq 没用）。</p>
+<p>后端选型就很容易了，因为整个项目是部署在 SAE 上的，加上之前使用的是 PHP ，这个项目的后端也是和之前一样采用了 PHP 。不同的是，我加强了前后端的分离，除了部分的用户鉴权（登录）和页面列表的渲染不可避免的嵌入 PHP 代码进行了渲染，另外的点赞、评论等功能，我都开发了统一标准的 <code>Restful API</code> ， <code>Restful API</code> 使用的是我自己开发的 PHP 框架：<code>RazordPHP</code>（<a href="https://github.com/razord/razordphp" target="_blank" rel="external">https://github.com/razord/razordphp</a>）进行搭建的。</p>
+<h2 id="工程化"><a href="#工程化" class="headerlink" title="工程化"></a>工程化</h2><p>之前用 <code>Vue</code> 的时候都是一键构建好了开发环境（我自己配置了单页面 <code>Vue</code> 应用所需要环境：<a href="https://github.com/jas0ncn/vue-spa-template" target="_blank" rel="external">https://github.com/jas0ncn/vue-spa-template</a>）。所以对工程化生产产生了极大的依赖。我决定再一次配置工程化的开发环境，这次选用 <code>gulp</code>，原因很简单，配置文件比 <code>webpack</code> 简单多了，适合小型项目，快速上手。</p>
+<p>为这个项目，我配置的 <code>gulp</code> 主要做了三件微小的事情：</p>
+<ul>
+<li>监听 JS, CSS, PHP 文件变化，自动编译，刷新浏览器</li>
+<li>使用 <code>babel</code> 编译 <code>es6</code> 语法</li>
+<li>css 是用 <code>less</code> 开发的，所以需要将 <code>less</code> 编译成 css</li>
+</ul>
+<h2 id="数据存储"><a href="#数据存储" class="headerlink" title="数据存储"></a>数据存储</h2><p>做这种图片类型的应用，最重要的就是图片上传了。由于这个项目是部署在 SAE 上的，所以本地文件是不可写的，但是 SAE 提供了一个储存的服务 <code>Storage</code>，我之前用过，但是仅仅只有数据存储的功能，不能做到水印、压缩等高级的功能，于是带着这些需求，我发现了腾讯云的<a href="https://www.qcloud.com/product/ci.html" target="_blank" rel="external">万象优图</a>。</p>
+<p>选择万象优图的原因就是，他其实是提供了图片储存的整套解决方案，包括图片cdn、加水印、裁切、质量压缩、鉴黄等。在深大快讯的照片墙里面，我们接入了万象优图的鉴黄功能，上传的图片会优先经过万象优图的鉴黄，如果达到了我们的黄图标准，这张图片将直接删除，不会展示在首页的列表中。</p>
+<p>综上，我们将所有的图片都存储在腾讯云，并与 SAE 上的数据库通过万象优图的 <code>fileid</code> 字段关联起来。在使用万象优图的时候，还遇到过 Demo 使用的是旧版 api 导致无法存储的问题，在此不再赘述。</p>
+<h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>总结来说，整个表白墙的架构如下图：</p>
+<center><br><img src="http://blog.ijason.cc/static/bbq_mindnode.png" alt="表白墙架构"><br></center>
+
+<p>有兴趣的可以联系我深入交流哦！</p>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2016/08/09/es6-note/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          ECMAScript6 学习笔记
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2016/05/10/new-idea-for-jsonp-csst/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">JSONP新思考：CSST</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		Copyright &copy; 2016 Jason's Blog - ijason.cc
+        <a href="http://www.miibeian.gov.cn/">粤ICP备14094574号</a>
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>

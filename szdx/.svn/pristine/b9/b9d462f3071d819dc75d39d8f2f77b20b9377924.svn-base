@@ -1,0 +1,31 @@
+<?php
+include '../libs/mysql.class.php';
+include '../config.php';
+$Mysql = new Mysql();
+if (!is_numeric($_GET['id'])) {
+	exit();
+}
+$teacher = $Mysql->Select('*', 'sdbk_tvote', '`teacherId` = '.$_GET['id']);
+?>
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title><?php echo $teacher['teacherName'] ?>老师的详细材料-深圳大学2015年本科生辅导员网络人气投票-深大百科</title>
+<link href="//cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="http://cdn.szunews.com/res/css/common.min.css" rel="stylesheet">
+<link href="css/full.css?v=1" rel="stylesheet">
+</head>
+<body>
+<div class="backBtn">
+    <a href="javascript:history.back()"><i class="fa fa-angle-left"> 返回</i></a>
+</div>
+<div class="content">
+	<?php
+		echo $teacher['full'];
+	?>
+</div>
+</body>
+</html>

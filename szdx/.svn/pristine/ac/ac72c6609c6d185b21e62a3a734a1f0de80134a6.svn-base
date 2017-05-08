@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url(../img/bg.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+.logo {
+	margin-top: 10px;
+}
+.logo img {
+	width: 90%;
+	margin: 0 auto;
+	display: block;
+}
+
+.textfield, .btn, .text {
+	width: 80%;
+	margin: 5% auto;
+}
+.textfield textarea {
+	width: 100%;
+	height: 200px;
+	padding: 10px;
+	color: #FFF;
+	font-size: 16px;
+	border: 1px solid #c6eaff;
+	border-radius: 2px;
+	background: rgba(0, 0, 0, .3);
+	resize: none;
+}
+
+.btn button {
+	width: 100%;
+	height: 35px;
+	color: #FFF;
+	font-size: 15px;
+	line-height: 33px;
+	border-radius: 5px;
+	border: 1px solid #c6eaff;
+	background: rgba(0, 0, 0, .6);
+}
+.btn button:active {
+	color: #0f1c31;
+	background: #c6eaff;
+}
+.btn button:nth-child(2) {
+	margin-top: 20px;
+}

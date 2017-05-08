@@ -1,0 +1,98 @@
+body {
+	background: #F0F0F0;
+}
+
+header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #FFF;
+	height: 75px;
+	border-bottom: 1px solid #ddd;
+}
+header .container {
+	max-width: 800px;
+	margin-top: 0;
+	padding: 0;
+	padding-left: 20px;
+	background: transparent;
+}
+header .container h5 {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	line-height: 40px;
+}
+header .container h3 {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	line-height: 20px;
+}
+
+.container {
+	margin-top: 75px;
+	padding: 40px;
+	padding-top: 30px;
+	background: #FFF;
+	border-radius: 0 0 5px 5px;
+}
+.container input {
+	border: 1px solid #ddd;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.container input:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.container button {
+	width: 50%;
+	margin: 30px auto;
+	margin-bottom: 0;
+	outline: none;
+	display: block;
+}
+.form-horizontal .form-group {
+    margin-right: 0;
+}
+
+@media (max-width: 768px) {
+	label.col-xs-5 {
+		line-height: 34px;
+	}
+	.container button {
+		width: 100%;
+		margin: 30px auto;
+		margin-bottom: 0;
+		outline: none;
+		display: block;
+	}
+}
+
+footer p{
+	color: #ddd;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 40px;
+	text-align: center;
+}
+
+.showtips {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    color: #FFF;
+    display: none;
+}
+.errortip {
+    background: #f45757;
+}
+.successtip {
+    background: #5cb85c;
+}

@@ -1,0 +1,247 @@
+html {
+	font-size: 100px;
+}
+
+.islider-dom {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	overflow: hidden;
+}
+
+.islider-dot-wrap {
+	width: 80%;
+	height: 0.2rem;
+	margin: 0 auto;
+	position: absolute;
+	padding: 0;
+	left: 0;
+	right: 0;
+	bottom: 0.1rem;
+	z-index: 10000;
+	text-align: center;
+}
+
+.islider-dot {
+	position: relative;
+	display: inline-block;
+	width: 0.15rem;
+	height: 0.15rem;
+	border-radius: 50%;
+	border: 1px solid white;
+	list-style-type: none;
+	margin: 0 0.05rem;
+	vertical-align: top;
+}
+
+.islider-dot.active {
+	background: #fff;
+}
+
+#iSlider-effect-wrapper {
+	width: 100%;
+	margin: 0 auto;
+	background-size: 3.76rem auto;
+	overflow: hidden;
+	position: absolute;
+	top: 50%;
+	margin-top: -2.38rem;
+}
+
+.iSlider-effect {
+	height: 4.86rem;
+	width: 2.9rem;
+	position: relative;
+	margin: 0 auto;
+}
+
+.iSlider-effect li {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.iSlider-effect ul li img {
+	max-width: 100%;
+	max-height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.card-wrap {
+	margin-top: 50px;
+	width: 2.9rem;
+	height: 3.76rem;
+	border-radius: 0.05rem;
+	overflow: hidden;
+}
+
+.card-wrap .card-hd {
+	position: relative;
+	width: 100%;
+	height: 2.16rem;
+	background-size: 2.9rem auto;
+}
+
+.card-wrap .card-hd .card-main {
+	position: relative;
+	z-index: 1;
+}
+
+.card-wrap .card-hd .card-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.card-wrap .card-hd .card-bg span {
+	display: block;
+	background-size: 2.9rem auto;
+	height: 2.16rem;
+}
+
+.card-wrap .card-bd {
+	position: relative;
+	height: 1.6rem;
+	background: #fff;
+}
+
+.card-wrap .card-title {
+	padding-top: 0.5rem;
+	text-align: center;
+	font-size: 0.24rem;
+	color: #fff;
+}
+
+.card-wrap .card-btn {
+	border: 1px solid #ccc;
+	font-size: 0.14rem;
+	border-radius: 0.2rem;
+	padding: 0.08rem 0.15rem;
+	color: #fff;
+	margin-top: 0.1rem;
+}
+
+.card-wrap .card-modal {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 0.44rem;
+	line-height: 0.44rem;
+	padding: 0 0.15rem;
+	-webkit-box-sizing: border-box;
+	color: #fff;
+	font-size: 0.14rem;
+	background: rgba(0, 0, 0, 0.1);
+	z-index: 2;
+}
+
+.card-wrap .card-modal .r-cont {
+	position: absolute;
+	right: 0.15rem;
+	top: 0.15rem;
+	line-height: 1;
+}
+
+.card-wrap .setting {
+	width: 0.19rem;
+	height: 0.19rem;
+	position: absolute;
+	right: 0.08rem;
+	top: 0.08rem;
+	background: url(../img/setting.png) no-repeat;
+	background-size: 0.18rem auto;
+}
+
+.card-wrap .play-info {
+	position: relative;
+	font-size: 0.2rem;
+	height: 0.44rem;
+	line-height: 0.44rem;
+	margin: 0 0.15rem;
+	font-size: 0.14rem;
+}
+
+.card-wrap .play-info .field {
+	width: 100%;
+	position: absolute;
+	text-align: left;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #808080;
+	text-indent: 2em;
+}
+
+.card-wrap .play-info .text {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-appearance: none;
+	border: 0;
+	background: 0 0;
+	padding-left: 0.65rem;
+}
+
+.card-wrap .ui-btn-wrap {
+	position: absolute;
+	bottom: 0.15rem;
+	left: 0;
+	padding: 0 0.15rem;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+}
+
+.line-dot {
+	border-bottom: 1px dotted #e0e0e0;
+}
+
+.animate .setting {
+	-webkit-animation: rotatex 5s linear infinite;
+}
+
+@-webkit-keyframes rotatex {
+	0% {
+		-webkit-transform: rotate(0);
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+	.card-wrap .card-btn {
+		border: 0;
+		position: relative;
+	}
+
+	.card-wrap .card-btn:before {
+		content: "";
+		width: 200%;
+		height: 200%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		border: 1px solid #cacccd;
+		-webkit-transform: scale(0.5);
+		-webkit-transform-origin: 0 0;
+		padding: 0.01rem;
+		-webkit-box-sizing: border-box;
+		border-radius: 0.4rem;
+		pointer-events: none;
+	}
+
+	.card-wrap .card-btn:after {
+		content: "";
+		position: absolute;
+		top: -0.07rem;
+		bottom: -0.07rem;
+		left: 0;
+		right: 0;
+	}
+}

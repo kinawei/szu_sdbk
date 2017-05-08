@@ -1,0 +1,76 @@
+<?php
+require_once '../config.php';
+require_once '../libs/pdo.class.php';
+require_once '../libs/weixin.class.php';
+date_default_timezone_set('Asia/Shanghai');
+$db = new lpdo($_pdo);
+$obj = new weixin(APPID, APPSECRET);
+$templeurl='http://szdx.sinaapp.com/powerusage';
+
+// 是否每天推送
+$alwaysPush = array('ohHvIjoJeahJQ_e1svpDIv2YAlS4', 'ohHvIjglviCC1ka2HyJqa24B2kNs');
+
+$token = $obj->getToken();
+$token = json_decode($token, true);
+
+$template_id = 'qZLWFBXBFuj1z1aMliuKBY5XJHpWFHaOVChG2KjcrZA';
+
+$rows = $db->get_rows('sdbk_room_bind', array('warnpush' => 1));
+
+$pushRes = array(
+    'success' => 0,
+    'failed' => 0,
+    'failedInfo' => array()
+);
+foreach ($rows as $row) {
+    $fetchRes = json_decode(file_get_contents('http://szunews.com/powerusage/fetch.php?roomcode=' . $row['code']), true);
+
+    //  
+    if ($fetchRes['enoughFor'] <= 2 || in_array($row['openid'], $alwaysPush)) {
+
+        $fetchRes['enoughFor'] = ($fetchRes['enoughFor'] > 99) ? '99+' : $fetchRes['enoughFor'];
+
+        $textPic = array(
+            'first' => array('value'=> '根据深大百科数据中心预测，你的宿舍剩余电费只能使用不到 ' . $fetchRes['enoughFor'] . ' 天啦！快去交电费吧！\n', 'color'=> '#df4848'),
+            'keynote1' => array('value'=> '未知', 'color'=> '#bbbbbb'),   
+            'keynote2' => array('value'=> $fetchRes['roomBind']['building'] . $fetchRes['roomBind']['roomname'], 'color'=> '#316492'),
+            'keynote3' => array('value'=> $fetchRes['lastUsage'] . '度', 'color'=> '#df4848'),
+            'remark' => array('value'=> '\n如果不想接收提醒消息，可以点击本条消息进入宿舍电费查询关闭提醒哦^_^\n\n点击可以查询7日电费情况。', 'color'=> '#bbbbbb'),
+        );
+
+        // Push
+        $pushInfo = json_decode($obj->pushtemple($token['access_token'], $row['openid'], $template_id, $templeurl, $textPic));
+
+        if ($pushInfo->errcode == 40001){
+            $token = $obj->getToken();
+            $token = json_decode($token, true);
+            $pushInfo = json_decode($obj->pushtemple($token['access_token'], $row['openid'], $template_id, $templeurl, $textPic));
+        }
+
+        if ($pushInfo->errcode == 0) {
+            $pushRes['success']++;
+        } else {
+            $pushRes['failed']++;
+            array_push($pushRes['failedInfo'], $pushInfo->errmsg);
+        }
+    }
+
+}
+
+if ($pushRes['failed'] != 0) {
+    $template_id = 'xrl-a8mKxDHdKH24JGwCximlPDFTMAJ7csKlGQxntb8';
+
+    $textPic = array(
+        'first' => array('value'=> '电费提醒推送异常！', 'color'=> '#F45757'),
+        'keyword1' => array('value'=> '电费提醒', 'color'=> '#555555'),   
+        'keyword2' => array('value'=> '推送异常', 'color'=> '#555555'),
+        'keyword3' => array('value'=> json_encode($pushRes['failedInfo']), 'color'=> '#555555'),
+        'keyword4' => array('value'=> date('Y-m-d H:i:s'), 'color'=> '#555555'),
+        'remark' => array('value'=> '共失败 ' . $pushRes['failed'] . ' 次', 'color'=> '#bbbbbb')
+    );
+
+    $obj->pushtemple($token['access_token'], 'ohHvIjoJeahJQ_e1svpDIv2YAlS4', $template_id, $templeurl, $textPic);
+
+}
+
+echo json_encode($pushRes);

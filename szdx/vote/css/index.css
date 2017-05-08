@@ -1,0 +1,197 @@
+html {
+	padding: 0;
+	margin: 0;
+	background: #ff8400;
+}
+
+.topImg {
+	float: left;
+	width: 100%;
+	display: block;
+}
+
+.voteRuleContainer {
+	float: left;
+	width: 100%;
+	padding: 5px;
+}
+.voteRule {
+	width: 100%;
+	padding: 10px;
+	color: #251000;
+	text-align: justify;
+	border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+	background: #fffcd2;
+}
+.voteRule h3 {
+	font-size: 16px;
+	line-height: 20px;
+}
+.voteRule p {
+	font-size: 14px;
+	line-height: 18px;
+}
+
+.warning {
+	float: left;
+	width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+  	display: block;
+    text-align: center;
+}
+
+.votePartContainer {
+	float: left;
+	width: 33%;
+	padding: 5px;
+}
+.votePartContainer .votePart {
+	width: 100%;
+	margin: 0 auto;
+	padding: 5px;
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 4px;
+}
+.votePartContainer .votePart .chooseActive {
+	position: relative;
+	top: -5px;
+	right: -100%;
+	margin-left: -25px;
+	width: 30px;
+	height: 30px;
+	color: #FFF;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	background: #b64500;
+	border-radius: 0 4px 0 4px;
+	z-index: 1000;
+	visibility: hidden;
+	pointer-events: none;
+}
+.votePartContainer .votePartActive {
+	background: rgba(255, 255, 255, 0.90);
+}
+.votePartContainer .votePartActive .chooseActive {
+	visibility: visible;
+}
+.votePartContainer .votePart img {
+	width: 100%;
+	margin-top: -30px;
+	border-radius: 2px;
+	display: block;
+}
+.votePartContainer .votePart .votePartTeacherName {
+	position: relative;
+	margin-top: -20px;
+	color: #FFF;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 20px;
+	text-align: center;
+	border-radius: 0 0 2px 2px;
+	background: rgba(0, 0, 0, .7);
+	pointer-events: none;
+}
+.votePartContainer .votePart .votePartTeacherName span {
+	font-size: 11px;
+}
+.votePartContainer .votePart .votePartDes p {
+	font-size: 14px;
+	text-align: center;
+	font-weight: bold;
+	color: #251000;
+}
+.votePartContainer .votePart .votePartDes p .btn {
+	color: #8a4800;
+}
+
+.author {
+	float: left;
+	width: 100%;
+	height: 80px;
+}
+.author p {
+	color: #b15c00;
+	font-size: 12px;
+	line-height: 40px;
+	text-align: center;
+	text-shadow: 0 1px 0 #ffae00;
+}
+
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+	padding-left: 10px;
+	background: rgba(0, 0, 0, .9);
+	z-index: 1001;
+}
+footer p {
+	float: left;
+	color: #FFF;
+	font-size: 14px;
+	line-height: 40px;
+	display: block;
+}
+footer button {
+	float: right;
+	height: 28px;
+	width: 80px;
+	margin-top: 5px;
+	margin-right: 10px;
+	color: #251000;
+	font-size: 16px;
+	background: #ffae00;
+	border-radius: 5px;
+	box-shadow: 0 2px 0 #ff8400;
+	display: block;
+}
+
+/* MASK */
+.mask {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, .8);
+	z-index: 1002;
+	display: none;
+}
+.loadTips {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: -40%;
+	width: 80%;
+	height: 100px;
+	color: #FFF;
+	text-align: center;
+}
+.loadTips h1 {
+	font-size: 64px;
+	line-height: 64px;
+}
+.fa-circle-o-notch {
+	animation: 1s linear 0s normal none infinite rotate;
+	-webkit-animation: 1s linear 0s normal none infinite rotate;
+}
+.loadTips p {
+	line-height: 30px;
+}
+
+@keyframes rotate{
+	from{-webkit-transform:rotate(0deg)}
+	to{-webkit-transform:rotate(360deg)}
+}
+@-webkit-keyframes rotate{
+	from{-webkit-transform:rotate(0deg)}
+	to{-webkit-transform:rotate(360deg)}
+}

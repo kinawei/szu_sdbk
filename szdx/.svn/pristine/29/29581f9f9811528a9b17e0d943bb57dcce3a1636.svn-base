@@ -1,0 +1,1010 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+  <title>深大电台API列表 | Jason&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="以下api返回数据均为 json 格式
+
+GET /api/albums 获取专辑列表请求所需参数表：
+
+
+
+参数名
+类型
+是否必须
+描述
+参数值
+
+
+
+
+type
+string
+否
+专辑类型（普通/推荐）
+normal / rec
+
+
+page
+number
+否
+页数（默认1）
+数字
+
+
+
+请求实例：
+123GET /api/albums               请求普通专辑第一页GET">
+<meta property="og:type" content="article">
+<meta property="og:title" content="深大电台API列表">
+<meta property="og:url" content="http://ijason.cc/2016/05/22/szuradio-api-lists/index.html">
+<meta property="og:site_name" content="Jason's Blog">
+<meta property="og:description" content="以下api返回数据均为 json 格式
+
+GET /api/albums 获取专辑列表请求所需参数表：
+
+
+
+参数名
+类型
+是否必须
+描述
+参数值
+
+
+
+
+type
+string
+否
+专辑类型（普通/推荐）
+normal / rec
+
+
+page
+number
+否
+页数（默认1）
+数字
+
+
+
+请求实例：
+123GET /api/albums               请求普通专辑第一页GET">
+<meta property="og:updated_time" content="2016-05-22T07:47:05.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="深大电台API列表">
+<meta name="twitter:description" content="以下api返回数据均为 json 格式
+
+GET /api/albums 获取专辑列表请求所需参数表：
+
+
+
+参数名
+类型
+是否必须
+描述
+参数值
+
+
+
+
+type
+string
+否
+专辑类型（普通/推荐）
+normal / rec
+
+
+page
+number
+否
+页数（默认1）
+数字
+
+
+
+请求实例：
+123GET /api/albums               请求普通专辑第一页GET">
+  
+    <link rel="alternative" href="/atom.xml" title="Jason&#39;s Blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay">
+	<code>
+		<br /><br /><br />
+		if (heyJason == 'visible') { <br />
+			&nbsp;&nbsp;&nbsp;&nbsp;console.log('Hey Guys!') <br />
+		}
+	</code>
+</div>
+<div class="intrude-less">
+	<header id="header" class="inner">
+		<a href="/" class="profilepic">
+			
+			<img lazy-src="http://sdkx.qiniudn.com/res/lovercjy.jpg" class="js-avatar">
+			
+		</a>
+
+		<hgroup>
+		  <h1 class="header-author"><a href="/">Jason Chen</a></h1>
+		</hgroup>
+
+		
+		<p class="header-subtitle">一个半桶水前端的博客</p>
+		
+
+		
+			<div class="switch-btn">
+				<div class="icon">
+					<div class="icon-ctn">
+						<div class="icon-wrap icon-house" data-idx="0">
+							<div class="birdhouse"></div>
+							<div class="birdhouse_holes"></div>
+						</div>
+						<div class="icon-wrap icon-ribbon hide" data-idx="1">
+							<div class="ribbon"></div>
+						</div>
+						
+						
+						<div class="icon-wrap icon-me hide" data-idx="3">
+							<div class="user"></div>
+							<div class="shoulder"></div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="tips-box hide">
+					<div class="tips-arrow"></div>
+					<ul class="tips-inner">
+						<li>Menu</li>
+						<li>Tags</li>
+						
+						
+						<li>Über</li>
+						
+					</ul>
+				</div>
+			</div>
+		
+
+		<div class="switch-area">
+			<div class="switch-wrap">
+				<section class="switch-part switch-part1">
+					<nav class="header-menu">
+						<ul>
+						
+							<li><a href="/">主页</a></li>
+				        
+							<li><a href="/archives">所有文章</a></li>
+				        
+						</ul>
+					</nav>
+					<nav class="header-nav">
+						<div class="social">
+							
+								<a class="github" target="_blank" href="https://github.com/jas0ncn" title="github">github</a>
+					        
+								<a class="weibo" target="_blank" href="http://weibo.com/138604948" title="weibo">weibo</a>
+					        
+								<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/innojason" title="zhihu">zhihu</a>
+					        
+								<a class="mail" target="_blank" href="/jason@iszu.cn" title="mail">mail</a>
+					        
+						</div>
+					</nav>
+				</section>
+				
+				
+				<section class="switch-part switch-part2">
+					<div class="widget tagcloud" id="js-tagcloud">
+						<a href="/tags/csst/" style="font-size: 10px;">csst</a> <a href="/tags/javascript/" style="font-size: 10px;">javascript</a> <a href="/tags/js/" style="font-size: 20px;">js</a> <a href="/tags/jsonp/" style="font-size: 10px;">jsonp</a> <a href="/tags/tengine/" style="font-size: 10px;">tengine</a> <a href="/tags/ubuntu/" style="font-size: 10px;">ubuntu</a> <a href="/tags/vue/" style="font-size: 10px;">vue</a> <a href="/tags/前端/" style="font-size: 10px;">前端</a> <a href="/tags/腾讯云/" style="font-size: 10px;">腾讯云</a>
+					</div>
+				</section>
+				
+				
+				
+
+				
+				
+				<section class="switch-part switch-part3">
+				
+					<div id="js-aboutme">前端，索狗，谷粉，设计师，啥都懂一点，偶尔写写后端的大二狗。励志要进T的半桶水前端！</div>
+				</section>
+				
+			</div>
+		</div>
+	</header>				
+</div>
+
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+  	<div class="overlay">
+  		<div class="slider-trigger"></div>
+  		<h1 class="header-author js-mobile-header hide">Jason Chen</h1>
+  	</div>
+	<div class="intrude-less">
+		<header id="header" class="inner">
+			<div class="profilepic">
+			
+				<img lazy-src="http://sdkx.qiniudn.com/res/lovercjy.jpg" class="js-avatar">
+			
+			</div>
+			<hgroup>
+			  <h1 class="header-author">Jason Chen</h1>
+			</hgroup>
+			
+			<p class="header-subtitle">一个半桶水前端的博客</p>
+			
+			<nav class="header-menu">
+				<ul>
+				
+					<li><a href="/">主页</a></li>
+		        
+					<li><a href="/archives">所有文章</a></li>
+		        
+		        <div class="clearfix"></div>
+				</ul>
+			</nav>
+			<nav class="header-nav">
+				<div class="social">
+					
+						<a class="github" target="_blank" href="https://github.com/jas0ncn" title="github">github</a>
+			        
+						<a class="weibo" target="_blank" href="http://weibo.com/138604948" title="weibo">weibo</a>
+			        
+						<a class="zhihu" target="_blank" href="https://www.zhihu.com/people/innojason" title="zhihu">zhihu</a>
+			        
+						<a class="mail" target="_blank" href="/jason@iszu.cn" title="mail">mail</a>
+			        
+				</div>
+			</nav>
+		</header>				
+	</div>
+</nav>
+
+      <div class="body-wrap"><article id="post-szuradio-api-lists" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/05/22/szuradio-api-lists/" class="article-date">
+  	<time datetime="2016-05-22T06:46:38.000Z" itemprop="datePublished">2016-05-22</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      深大电台API列表
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+        
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>以下api返回数据均为 <code>json</code> 格式</p>
+</blockquote>
+<h2 id="GET-api-albums-获取专辑列表"><a href="#GET-api-albums-获取专辑列表" class="headerlink" title="GET /api/albums 获取专辑列表"></a><code>GET</code> <code>/api/albums</code> 获取专辑列表</h2><p><strong>请求所需参数表：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>是否必须</th>
+<th>描述</th>
+<th>参数值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>type</code></td>
+<td>string</td>
+<td>否</td>
+<td>专辑类型（普通/推荐）</td>
+<td>normal / rec</td>
+</tr>
+<tr>
+<td><code>page</code></td>
+<td>number</td>
+<td>否</td>
+<td>页数（默认1）</td>
+<td>数字</td>
+</tr>
+</tbody>
+</table>
+<p><strong>请求实例：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">GET /api/albums               请求普通专辑第一页</span><br><span class="line">GET /api/albums/normal        请求普通专辑第一页</span><br><span class="line">GET /api/albums/rec/2         请求推荐专辑第二页</span><br></pre></td></tr></table></figure>
+<p><strong>返回数据表：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>description</code></td>
+<td>string</td>
+<td>专辑描述</td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td>string</td>
+<td>专辑名称</td>
+</tr>
+<tr>
+<td><code>id</code></td>
+<td>number</td>
+<td>专辑ID</td>
+</tr>
+<tr>
+<td><code>listeners</code></td>
+<td>number</td>
+<td>收听数</td>
+</tr>
+<tr>
+<td><code>imageUrl</code></td>
+<td>string</td>
+<td>专辑封面</td>
+</tr>
+</tbody>
+</table>
+<p><strong>返回数据实例：</strong></p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[&#123;</span><br><span class="line">    <span class="attr">"description"</span>: <span class="string">"很好听的专辑"</span>,</span><br><span class="line">    <span class="attr">"name"</span>: <span class="string">"专辑一"</span>,</span><br><span class="line">    <span class="attr">"id"</span>: <span class="number">1</span>,</span><br><span class="line">    <span class="attr">"listeners"</span>: <span class="number">123</span>,</span><br><span class="line">    <span class="attr">"imageUrl"</span>: <span class="string">"http://p4.music.126.net/L0pZQaVogo1MmoJLO7SGIA==/1364493995720102.jpg?param=140y140"</span></span><br><span class="line">&#125;]</span><br></pre></td></tr></table></figure>
+<h2 id="GET-api-album-获取单个专辑"><a href="#GET-api-album-获取单个专辑" class="headerlink" title="GET /api/album 获取单个专辑"></a><code>GET</code> <code>/api/album</code> 获取单个专辑</h2><p><strong>请求所需参数表：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>是否必须</th>
+<th>描述</th>
+<th>参数值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>id</code></td>
+<td>number</td>
+<td>是</td>
+<td>专辑ID</td>
+<td>数字</td>
+</tr>
+</tbody>
+</table>
+<p><strong>请求实例：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET /api/albums/13             请求编号为13的专辑</span><br></pre></td></tr></table></figure>
+<p><strong>返回数据表：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>description</code></td>
+<td>string</td>
+<td>专辑描述</td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td>string</td>
+<td>专辑名称</td>
+</tr>
+<tr>
+<td><code>id</code></td>
+<td>number</td>
+<td>专辑ID</td>
+</tr>
+<tr>
+<td><code>listeners</code></td>
+<td>number</td>
+<td>收听数</td>
+</tr>
+<tr>
+<td><code>imageUrl</code></td>
+<td>string</td>
+<td>专辑封面</td>
+</tr>
+<tr>
+<td><code>songs</code></td>
+<td>array</td>
+<td>专辑内歌曲列表</td>
+</tr>
+<tr>
+<td><code>songs.id</code></td>
+<td>string</td>
+<td>专辑内歌曲编号</td>
+</tr>
+<tr>
+<td><code>songs.name</code></td>
+<td>string</td>
+<td>专辑内歌曲名称</td>
+</tr>
+<tr>
+<td><code>songs.imageUrl</code></td>
+<td>string</td>
+<td>专辑内歌曲封面</td>
+</tr>
+</tbody>
+</table>
+<p><strong>返回数据实例：</strong></p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">     <span class="attr">"description"</span>: <span class="string">"很好听的专辑"</span>,</span><br><span class="line">     <span class="attr">"name"</span>: <span class="string">"专辑一"</span>,</span><br><span class="line">     <span class="attr">"id"</span>: <span class="number">1</span>,</span><br><span class="line">     <span class="attr">"listeners"</span>: <span class="number">123</span>,</span><br><span class="line">     <span class="attr">"imageUrl"</span>: <span class="string">"http://p4.music.126.net/L0pZQaVogo1MmoJLO7SGIA==/1364493995720102.jpg?param=140y140"</span>,</span><br><span class="line">     <span class="attr">"songs"</span>: [</span><br><span class="line">     	<span class="string">"id"</span>: <span class="number">1</span>,</span><br><span class="line">     	<span class="string">"name"</span>: <span class="string">"歌曲1"</span></span><br><span class="line">     	<span class="string">"imageUrl"</span>: <span class="string">"http://p4.music.126.net/L0pZQaVogo1MmoJLO7SGIA==/1364493995720102.jpg?param=140y140"</span></span><br><span class="line">     ]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="GET-api-songs-获取歌曲列表"><a href="#GET-api-songs-获取歌曲列表" class="headerlink" title="GET /api/songs 获取歌曲列表"></a><code>GET</code> <code>/api/songs</code> 获取歌曲列表</h2><p><strong>请求所需参数表：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>是否必须</th>
+<th>描述</th>
+<th>参数值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>page</code></td>
+<td>number</td>
+<td>否</td>
+<td>页数（默认1）</td>
+<td>数字</td>
+</tr>
+</tbody>
+</table>
+<p><strong>请求实例：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">GET /api/songs               请求歌曲列表第一页</span><br><span class="line">GET /api/songs/2             请求歌曲列表第二页</span><br></pre></td></tr></table></figure>
+<p><strong>返回数据表：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>name</code></td>
+<td>string</td>
+<td>歌曲名称</td>
+</tr>
+<tr>
+<td><code>id</code></td>
+<td>number</td>
+<td>歌曲ID</td>
+</tr>
+<tr>
+<td><code>imageUrl</code></td>
+<td>string</td>
+<td>歌曲封面</td>
+</tr>
+</tbody>
+</table>
+<p><strong>返回数据实例：</strong></p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[&#123;</span><br><span class="line">    <span class="attr">"name"</span>: <span class="string">"歌曲一"</span>,</span><br><span class="line">    <span class="attr">"id"</span>: <span class="number">1</span>,</span><br><span class="line">    <span class="attr">"imageUrl"</span>: <span class="string">"http://p4.music.126.net/L0pZQaVogo1MmoJLO7SGIA==/1364493995720102.jpg?param=140y140"</span></span><br><span class="line">&#125;]</span><br></pre></td></tr></table></figure>
+<h2 id="GET-api-song-获取单首歌曲"><a href="#GET-api-song-获取单首歌曲" class="headerlink" title="GET /api/song 获取单首歌曲"></a><code>GET</code> <code>/api/song</code> 获取单首歌曲</h2><p><strong>请求所需参数表：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>是否必须</th>
+<th>描述</th>
+<th>参数值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>id</code></td>
+<td>number</td>
+<td>是</td>
+<td>歌曲编号</td>
+<td>数字</td>
+</tr>
+</tbody>
+</table>
+<p><strong>请求实例：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET /api/song/2             请求歌曲编号为2的歌曲</span><br></pre></td></tr></table></figure>
+<p><strong>返回数据表：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>description</code></td>
+<td>string</td>
+<td>歌曲描述</td>
+</tr>
+<tr>
+<td><code>name</code></td>
+<td>string</td>
+<td>歌曲名称</td>
+</tr>
+<tr>
+<td><code>id</code></td>
+<td>number</td>
+<td>歌曲ID</td>
+</tr>
+<tr>
+<td><code>likes</code></td>
+<td>number</td>
+<td>收听数</td>
+</tr>
+<tr>
+<td><code>imageUrl</code></td>
+<td>string</td>
+<td>歌曲封面</td>
+</tr>
+</tbody>
+</table>
+<p><strong>返回数据实例：</strong></p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"description"</span>: <span class="string">"很好听的歌曲"</span>,</span><br><span class="line">    <span class="attr">"name"</span>: <span class="string">"歌曲一"</span>,</span><br><span class="line">    <span class="attr">"id"</span>: <span class="number">1</span>,</span><br><span class="line">    <span class="attr">"likes"</span>: <span class="number">123</span>,</span><br><span class="line">    <span class="attr">"imageUrl"</span>: <span class="string">"http://p4.music.126.net/L0pZQaVogo1MmoJLO7SGIA==/1364493995720102.jpg?param=140y140"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="GET-api-comment-获取单首歌曲的评论"><a href="#GET-api-comment-获取单首歌曲的评论" class="headerlink" title="GET /api/comment 获取单首歌曲的评论"></a><code>GET</code> <code>/api/comment</code> 获取单首歌曲的评论</h2><p><strong>请求所需参数表：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>是否必须</th>
+<th>描述</th>
+<th>参数值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>id</code></td>
+<td>number</td>
+<td>是</td>
+<td>歌曲编号</td>
+<td>数字</td>
+</tr>
+</tbody>
+</table>
+<p><strong>请求实例：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET /api/comment/2             请求歌曲编号为2的评论</span><br></pre></td></tr></table></figure>
+<p><strong>返回数据表：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>content</code></td>
+<td>string</td>
+<td>评论内容</td>
+</tr>
+<tr>
+<td><code>date</code></td>
+<td>number</td>
+<td>评论时间</td>
+</tr>
+<tr>
+<td><code>id</code></td>
+<td>number</td>
+<td>评论编号</td>
+</tr>
+<tr>
+<td><code>user</code></td>
+<td>object</td>
+<td>评论者的信息</td>
+</tr>
+<tr>
+<td><code>user.nickname</code></td>
+<td>string</td>
+<td>用户昵称</td>
+</tr>
+<tr>
+<td><code>user.sex</code></td>
+<td>number</td>
+<td>用户性别（1为男，2为女）</td>
+</tr>
+<tr>
+<td><code>user.headimgurl</code></td>
+<td>string</td>
+<td>用户头像</td>
+</tr>
+<tr>
+<td><code>user.id</code></td>
+<td>number</td>
+<td>用户编号</td>
+</tr>
+</tbody>
+</table>
+<p><strong>返回数据实例：</strong></p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"content"</span>: <span class="string">"wechat test!"</span>,</span><br><span class="line">    <span class="attr">"date"</span>: <span class="number">1461384336263</span>,</span><br><span class="line">    <span class="attr">"id"</span>: <span class="number">4</span>,</span><br><span class="line">    <span class="attr">"user"</span>: &#123;</span><br><span class="line">        <span class="attr">"nickname"</span>: <span class="string">"华靖坤"</span>,</span><br><span class="line">        <span class="attr">"sex"</span>: <span class="number">1</span>,</span><br><span class="line">        <span class="attr">"headimgurl"</span>: <span class="string">"http://wx.qlogo.cn/mmopen/PiajxSqBRaEIhIBO8GNq8jgP6OV2VKcTBdBh7LzHoHxAWHV5MpIjwJD2nYhfr5IsqycjVgtNWI9icdAiaciaTibDibdg/0"</span>,</span><br><span class="line">        <span class="attr">"id"</span>: <span class="number">1</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="POST-api-comment-提交评论"><a href="#POST-api-comment-提交评论" class="headerlink" title="POST /api/comment 提交评论"></a><code>POST</code> <code>/api/comment</code> 提交评论</h2><p><strong>请求所需参数表：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>是否必须</th>
+<th>描述</th>
+<th>参数值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>id</code></td>
+<td>number</td>
+<td>是</td>
+<td>歌曲编号</td>
+<td>数字</td>
+</tr>
+<tr>
+<td><code>content</code></td>
+<td>string</td>
+<td>是</td>
+<td>评论内容</td>
+<td>UTF8字符串</td>
+</tr>
+</tbody>
+</table>
+<p><strong>请求实例：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">POST /api/comment</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">    &quot;id&quot;: 1,</span><br><span class="line">    &quot;content&quot;: &quot;这首歌不错！&quot;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>返回数据表：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>errcode</code></td>
+<td>number</td>
+<td>错误编号，0为成功</td>
+</tr>
+<tr>
+<td><code>message</code></td>
+<td>string</td>
+<td>错误信息</td>
+</tr>
+</tbody>
+</table>
+<p><strong>返回数据实例：</strong></p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"errcode"</span>: <span class="number">0</span>,</span><br><span class="line">    <span class="attr">"message"</span>: <span class="string">"success"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="GET-api-banners-获取首页的滚动图"><a href="#GET-api-banners-获取首页的滚动图" class="headerlink" title="GET /api/banners 获取首页的滚动图"></a><code>GET</code> <code>/api/banners</code> 获取首页的滚动图</h2><p><strong>请求所需参数表：</strong></p>
+<p>无</p>
+<p><strong>请求实例：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET /api/banners</span><br></pre></td></tr></table></figure>
+<p><strong>返回数据表：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>bannerImg</code></td>
+<td>string</td>
+<td>滚动图</td>
+</tr>
+<tr>
+<td><code>bannerUrl</code></td>
+<td>string</td>
+<td>滚动图链接</td>
+</tr>
+</tbody>
+</table>
+<p><strong>返回数据实例：</strong></p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[&#123;</span><br><span class="line">    <span class="attr">"bannerImg"</span>: <span class="string">"../assets/img/banner1.jpg"</span>,</span><br><span class="line">    <span class="attr">"bannerUrl"</span>: <span class="string">"/show/1"</span></span><br><span class="line">&#125;]</span><br></pre></td></tr></table></figure>
+<h2 id="GET-api-boardcasts-获取公告列表"><a href="#GET-api-boardcasts-获取公告列表" class="headerlink" title="GET /api/boardcasts 获取公告列表"></a><code>GET</code> <code>/api/boardcasts</code> 获取公告列表</h2><p><strong>请求所需参数表：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>是否必须</th>
+<th>描述</th>
+<th>参数值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>page</code></td>
+<td>number</td>
+<td>否</td>
+<td>页数（默认1）</td>
+<td>数字</td>
+</tr>
+</tbody>
+</table>
+<p><strong>请求实例：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">GET /api/boardcasts               请求公告列表第一页</span><br><span class="line">GET /api/boardcasts/2             请求公告列表第二页</span><br></pre></td></tr></table></figure>
+<p><strong>返回数据表：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code></td>
+<td>string</td>
+<td>公告标题</td>
+</tr>
+<tr>
+<td><code>data</code></td>
+<td>number</td>
+<td>发布时间</td>
+</tr>
+</tbody>
+</table>
+<p><strong>返回数据实例：</strong></p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">[&#123;</span><br><span class="line">    <span class="attr">"title"</span>: <span class="string">"xxxx发布啦！"</span>,</span><br><span class="line">    <span class="attr">"data"</span>: <span class="number">1461384336263</span></span><br><span class="line">&#125;]</span><br></pre></td></tr></table></figure>
+<h2 id="GET-api-boardcast-获取单条公告"><a href="#GET-api-boardcast-获取单条公告" class="headerlink" title="GET /api/boardcast 获取单条公告"></a><code>GET</code> <code>/api/boardcast</code> 获取单条公告</h2><p><strong>请求所需参数表：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>是否必须</th>
+<th>描述</th>
+<th>参数值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>id</code></td>
+<td>number</td>
+<td>是</td>
+<td>公告编号</td>
+<td>数字</td>
+</tr>
+</tbody>
+</table>
+<p><strong>请求实例：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">GET /api/boardcast/2             请求公告编号为2的公告</span><br></pre></td></tr></table></figure>
+<p><strong>返回数据表：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code></td>
+<td>string</td>
+<td>公告标题</td>
+</tr>
+<tr>
+<td><code>data</code></td>
+<td>number</td>
+<td>发布时间</td>
+</tr>
+<tr>
+<td><code>content</code></td>
+<td>string</td>
+<td>公告内容</td>
+</tr>
+<tr>
+<td><code>author</code></td>
+<td>string</td>
+<td>发布者</td>
+</tr>
+</tbody>
+</table>
+<p><strong>返回数据实例：</strong></p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"title"</span>: <span class="string">"xxxx发布啦！"</span>,</span><br><span class="line">    <span class="attr">"data"</span>: <span class="number">1461384336263</span>,</span><br><span class="line">    <span class="attr">"content"</span>: <span class="string">"xxxx发布啦！欢迎大家使用啦！"</span>,</span><br><span class="line">    <span class="attr">"author"</span>: <span class="string">"Jason"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="POST-api-order-点歌"><a href="#POST-api-order-点歌" class="headerlink" title="POST /api/order 点歌"></a><code>POST</code> <code>/api/order</code> 点歌</h2><p><strong>请求所需参数表：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>是否必须</th>
+<th>描述</th>
+<th>参数值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>from</code></td>
+<td>string</td>
+<td>是</td>
+<td>点歌者</td>
+<td>UTF8字符串</td>
+</tr>
+<tr>
+<td><code>to</code></td>
+<td>string</td>
+<td>是</td>
+<td>点歌对象</td>
+<td>UTF8字符串</td>
+</tr>
+<tr>
+<td><code>songName</code></td>
+<td>string</td>
+<td>是</td>
+<td>要点的歌曲名</td>
+<td>UTF8字符串</td>
+</tr>
+<tr>
+<td><code>fromOrg</code></td>
+<td>string</td>
+<td>是</td>
+<td>点歌者的学院信息</td>
+<td>UTF8字符串</td>
+</tr>
+<tr>
+<td><code>toOrg</code></td>
+<td>string</td>
+<td>是</td>
+<td>点歌对象的学院信息</td>
+<td>UTF8字符串</td>
+</tr>
+<tr>
+<td><code>letter</code></td>
+<td>string</td>
+<td>是</td>
+<td>寄语</td>
+<td>UTF8字符串</td>
+</tr>
+</tbody>
+</table>
+<p><strong>请求实例：</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">POST /api/order</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">    &quot;from&quot;: &quot;Jason&quot;,</span><br><span class="line">    &quot;to&quot;: &quot;浅唱鸡摸&quot;,</span><br><span class="line">    &quot;songName&quot;: &quot;薛之谦的丑八怪&quot;,</span><br><span class="line">    &quot;fromOrg&quot;: &quot;信息工程学院 大二&quot;,</span><br><span class="line">    &quot;toOrg&quot;: &quot;计算机与软件学院 大二&quot;,</span><br><span class="line">    &quot;letter&quot;: &quot;这首歌很适合你！&quot;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p><strong>返回数据表：</strong></p>
+<table>
+<thead>
+<tr>
+<th>参数名</th>
+<th>类型</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>errcode</code></td>
+<td>number</td>
+<td>错误编号，0为成功</td>
+</tr>
+<tr>
+<td><code>message</code></td>
+<td>string</td>
+<td>错误信息</td>
+</tr>
+</tbody>
+</table>
+<p><strong>返回数据实例：</strong></p>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"errcode"</span>: <span class="number">0</span>,</span><br><span class="line">    <span class="attr">"message"</span>: <span class="string">"success"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2016/05/10/new-idea-for-jsonp-csst/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">JSONP新思考：CSST</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+</div>
+      <footer id="footer">
+  <div class="outer">
+    <div id="footer-info">
+    	<div class="footer-left">
+    		Copyright &copy; 2016 Jason's Blog - ijason.cc
+    	</div>
+      	<div class="footer-right">
+      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
+      	</div>
+    </div>
+  </div>
+</footer>
+    </div>
+    
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+
+<script>
+	var yiliaConfig = {
+		fancybox: true,
+		mathjax: true,
+		animate: true,
+		isHome: false,
+		isPost: true,
+		isArchive: false,
+		isTag: false,
+		isCategory: false,
+		open_in_new: false
+	}
+</script>
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="/js/main.js"></script>
+
+
+
+
+
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+    }
+});
+
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';                 
+    }       
+});
+</script>
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+  </div>
+</body>
+</html>

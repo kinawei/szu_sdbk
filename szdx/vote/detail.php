@@ -1,0 +1,65 @@
+<?php
+include '../libs/mysql.class.php';
+include '../config.php';
+$Mysql = new Mysql();
+if (isset($_COOKIE["openid"]) && isset($_COOKIE['secret'])) {
+	if ($_COOKIE["secret"] != md5($_COOKIE["openid"])) {
+		header("Location: http://szdx.sinaapp.com/passport/?redirect_uri=".urlencode("http://szdx.sinaapp.com/vote"));
+  	}
+  	$openid = $_COOKIE["openid"];
+  	$result = $Mysql->Selects('*', 'sdbk_user', ' `openid` = "'.$openid.'"');
+  	$userinfo = mysql_fetch_array($result);
+  	if ($userinfo['studentNo'] == 0) {
+  		header("Location: http://szdx.sinaapp.com/passport/?redirect_uri=".urlencode("http://szdx.sinaapp.com/vote"));
+  	}
+} else {
+	header("Location: http://szdx.sinaapp.com/passport/?redirect_uri=".urlencode("http://szdx.sinaapp.com/vote"));
+}
+if (!is_numeric($_GET['id'])) {
+    exit;
+}
+$openid = $userinfo['openid'];
+$teacher = $Mysql->Select('*', 'sdbk_tvote', '`teacherId` = '.$_GET['id']);
+$voteTotal = $Mysql->Select_Rows('*', 'sdbk_vote_record', "`openid` = '".$openid."' ");
+$teacher['teacherBallot'] = $Mysql->Select_Rows('*', 'sdbk_vote_record', '`id` = '.$teacher['teacherId']);
+?>
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<title><?php echo $teacher['teacherName'] ?>老师-深圳大学2016年本科生辅导员网络人气投票-深大百科</title>
+<link href="http://cdn.www.wacxt.cn/res/css/common.min.css" rel="stylesheet">
+<link href="//cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="css/detail.css?v=5" rel="stylesheet">
+</head>
+<body>
+<div class="backBtn">
+    <a href="javascript:history.back()"><i class="fa fa-angle-left"></i></a>
+</div>
+<div class="teacherImgContainer">
+    <img class="teacherImg" src="http://cdn.szdx.sinaapp.com/image/participant/<?php echo $teacher['teacherId'] ?>.jpg?v=1">
+    <span class="ballot"><?php echo $teacher['teacherBallot']; ?>票</span>
+</div>
+<div class="teacherName">
+    <h1><?php echo $teacher['teacherName'] ?></h1>
+</div>
+<div class="teacherDes">
+    <h3>教师自我介绍：</h3>
+    <?php echo $teacher['teacherDes'] ?>
+</div>
+<img src="http://cdn.szdx.sinaapp.com/image/photo/<?php echo $teacher['teacherId'] ?>.jpg?v=1">
+<a href="full.php?id=<?php echo $teacher['teacherId'] ?>">
+    <div class="fullBtn">
+        查看详细介绍
+    </div>
+</a>
+<!--
+<iframe frameborder="0" width="100%" height="200px" src="http://v.qq.com/iframe/player.html?vid=i01766dtle2&tiny=0&auto=0" allowfullscreen></iframe>
+-->
+<div class="author">
+    <p>Coded By Jason</p>
+</div>
+</body>
+</html>

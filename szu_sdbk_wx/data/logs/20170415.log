@@ -1,0 +1,5613 @@
+2017-04-15 00:20:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjqSmNRBCbsWdooechOxRvuU]]></FromUserName>
+<CreateTime>1492186816</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/issue]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 00:20:16 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjqSmNRBCbsWdooechOxRvuU',
+    'createtime' => '1492186816',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/issue',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjqSmNRBCbsWdooechOxRvuU',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492186816',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/issue',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 00:20:16 response :
+------------
+
+2017-04-15 00:20:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjqSmNRBCbsWdooechOxRvuU]]></FromUserName>
+<CreateTime>1492186829</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/card]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 00:20:29 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjqSmNRBCbsWdooechOxRvuU',
+    'createtime' => '1492186829',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/card',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjqSmNRBCbsWdooechOxRvuU',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492186829',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/card',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 00:20:29 response :
+------------
+
+2017-04-15 00:20:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjqSmNRBCbsWdooechOxRvuU]]></FromUserName>
+<CreateTime>1492186853</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/issue]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 00:20:53 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjqSmNRBCbsWdooechOxRvuU',
+    'createtime' => '1492186853',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/issue',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjqSmNRBCbsWdooechOxRvuU',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492186853',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/issue',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 00:20:53 response :
+------------
+
+2017-04-15 00:21:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjqSmNRBCbsWdooechOxRvuU]]></FromUserName>
+<CreateTime>1492186862</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/exam]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 00:21:02 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjqSmNRBCbsWdooechOxRvuU',
+    'createtime' => '1492186862',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/exam',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjqSmNRBCbsWdooechOxRvuU',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492186862',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/exam',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 00:21:02 response :
+------------
+
+2017-04-15 00:29:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjhtBS7KZS55a-t4aKoFueWA]]></FromUserName>
+<CreateTime>1492187366</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/board]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 00:29:26 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjhtBS7KZS55a-t4aKoFueWA',
+    'createtime' => '1492187366',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/board',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjhtBS7KZS55a-t4aKoFueWA',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492187366',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/board',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 00:29:26 response :
+------------
+
+2017-04-15 00:29:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjhtBS7KZS55a-t4aKoFueWA]]></FromUserName>
+<CreateTime>1492187378</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/board]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 00:29:38 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjhtBS7KZS55a-t4aKoFueWA',
+    'createtime' => '1492187378',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/board',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjhtBS7KZS55a-t4aKoFueWA',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492187378',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/board',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 00:29:38 response :
+------------
+
+2017-04-15 00:31:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjuJ7KngFrxpIS97tSJJukiI]]></FromUserName>
+<CreateTime>1492187483</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/issue]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 00:31:23 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjuJ7KngFrxpIS97tSJJukiI',
+    'createtime' => '1492187483',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/issue',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjuJ7KngFrxpIS97tSJJukiI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492187483',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/issue',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 00:31:23 response :
+------------
+
+2017-04-15 00:31:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjuJ7KngFrxpIS97tSJJukiI]]></FromUserName>
+<CreateTime>1492187490</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/issue]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 00:31:31 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjuJ7KngFrxpIS97tSJJukiI',
+    'createtime' => '1492187490',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/issue',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjuJ7KngFrxpIS97tSJJukiI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492187490',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/issue',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 00:31:31 response :
+------------
+
+2017-04-15 00:31:56 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjuJ7KngFrxpIS97tSJJukiI]]></FromUserName>
+<CreateTime>1492187516</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/issue]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 00:31:56 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjuJ7KngFrxpIS97tSJJukiI',
+    'createtime' => '1492187516',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/issue',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjuJ7KngFrxpIS97tSJJukiI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492187516',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/issue',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 00:31:56 response :
+------------
+
+2017-04-15 00:33:30 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjuJ7KngFrxpIS97tSJJukiI]]></FromUserName>
+<CreateTime>1492187610</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA4NDA5MzQzMw==&from=1#wechat_webview_type=1&wechat_redirect]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 00:33:30 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjuJ7KngFrxpIS97tSJJukiI',
+    'createtime' => '1492187610',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA4NDA5MzQzMw==&from=1#wechat_webview_type=1&wechat_redirect',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjuJ7KngFrxpIS97tSJJukiI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492187610',
+    'type' => 'text',
+    'content' => 'http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA4NDA5MzQzMw==&from=1#wechat_webview_type=1&wechat_redirect',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 00:33:30 response :
+------------
+
+2017-04-15 00:34:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjuJ7KngFrxpIS97tSJJukiI]]></FromUserName>
+<CreateTime>1492187653</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://szucal.com]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 00:34:13 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjuJ7KngFrxpIS97tSJJukiI',
+    'createtime' => '1492187653',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://szucal.com',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjuJ7KngFrxpIS97tSJJukiI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492187653',
+    'type' => 'text',
+    'content' => 'http://szucal.com',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 00:34:13 response :
+------------
+
+2017-04-15 00:37:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjuJ7KngFrxpIS97tSJJukiI]]></FromUserName>
+<CreateTime>1492187857</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://szucal.com]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 00:37:37 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjuJ7KngFrxpIS97tSJJukiI',
+    'createtime' => '1492187857',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://szucal.com',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjuJ7KngFrxpIS97tSJJukiI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492187857',
+    'type' => 'text',
+    'content' => 'http://szucal.com',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 00:37:37 response :
+------------
+
+2017-04-15 00:49:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjuJ7KngFrxpIS97tSJJukiI]]></FromUserName>
+<CreateTime>1492188574</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/issue]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 00:49:34 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjuJ7KngFrxpIS97tSJJukiI',
+    'createtime' => '1492188574',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/issue',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjuJ7KngFrxpIS97tSJJukiI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492188574',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/issue',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 00:49:34 response :
+------------
+
+2017-04-15 01:24:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjoMo6dYmDqYbSwhAQYseH8E]]></FromUserName>
+<CreateTime>1492190690</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-04-15 01:52:08 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjhHQwgP1Fo6og0_bZMv07IM]]></FromUserName>
+<CreateTime>1492192327</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-04-15 02:20:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjrNiN2VbrFSRZP4uy3tKwOk]]></FromUserName>
+<CreateTime>1492194010</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/issue]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 02:20:10 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjrNiN2VbrFSRZP4uy3tKwOk',
+    'createtime' => '1492194010',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/issue',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjrNiN2VbrFSRZP4uy3tKwOk',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492194010',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/issue',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 02:20:10 response :
+------------
+
+2017-04-15 02:21:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjrNiN2VbrFSRZP4uy3tKwOk]]></FromUserName>
+<CreateTime>1492194067</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[港澳通行证]]></Content>
+<MsgId>6408924717515420905</MsgId>
+</xml>
+
+2017-04-15 02:21:07 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjrNiN2VbrFSRZP4uy3tKwOk',
+    'createtime' => '1492194067',
+    'msgtype' => 'text',
+    'content' => '港澳通行证',
+    'msgid' => '6408924717515420905',
+    'from' => 'ohHvIjrNiN2VbrFSRZP4uy3tKwOk',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492194067',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-04-15 02:21:07 response :
+------------
+
+2017-04-15 07:21:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjgO0ArxVCpI3jkKj-P40Jks]]></FromUserName>
+<CreateTime>1492212091</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[小编[皱眉][皱眉]为什么校园卡在圈存机上充值了之后余额会自动少几块钱 本来还有1.8的，充了30结果余额变成了29。。。这还扣手续费的？！]]></Content>
+<MsgId>6409002130005966028</MsgId>
+</xml>
+
+2017-04-15 07:21:32 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjgO0ArxVCpI3jkKj-P40Jks',
+    'createtime' => '1492212091',
+    'msgtype' => 'text',
+    'content' => '小编[皱眉][皱眉]为什么校园卡在圈存机上充值了之后余额会自动少几块钱 本来还有1.8的，充了30结果余额变成了29。。。这还扣手续费的？！',
+    'msgid' => '6409002130005966028',
+    'from' => 'ohHvIjgO0ArxVCpI3jkKj-P40Jks',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492212091',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-04-15 07:21:32 response :
+------------
+
+2017-04-15 07:41:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjru3Cqaade48vPQTWivApQg]]></FromUserName>
+<CreateTime>1492213296</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 07:41:36 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjru3Cqaade48vPQTWivApQg',
+    'createtime' => '1492213296',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjru3Cqaade48vPQTWivApQg',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492213296',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 07:41:36 response :
+------------
+
+2017-04-15 07:42:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjqMXangsI2VJ1e2E3xthuG8]]></FromUserName>
+<CreateTime>1492213333</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 07:42:13 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjqMXangsI2VJ1e2E3xthuG8',
+    'createtime' => '1492213333',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjqMXangsI2VJ1e2E3xthuG8',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492213333',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 07:42:13 response :
+------------
+
+2017-04-15 07:56:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjtt8RuPd-QP06HQ_prSIKyA]]></FromUserName>
+<CreateTime>1492214204</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/card]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 07:56:45 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjtt8RuPd-QP06HQ_prSIKyA',
+    'createtime' => '1492214204',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/card',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjtt8RuPd-QP06HQ_prSIKyA',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492214204',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/card',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 07:56:45 response :
+------------
+
+2017-04-15 08:08:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjkeUMoEIPhN3dPH6dD7eS1Y]]></FromUserName>
+<CreateTime>1492214882</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 08:08:02 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjkeUMoEIPhN3dPH6dD7eS1Y',
+    'createtime' => '1492214882',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjkeUMoEIPhN3dPH6dD7eS1Y',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492214882',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 08:08:02 response :
+------------
+
+2017-04-15 08:17:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjq99hI0DYAWMSWU5VVje68s]]></FromUserName>
+<CreateTime>1492215473</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-04-15 08:32:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjgl6DplEftJLI1-awLOJUqk]]></FromUserName>
+<CreateTime>1492216345</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 08:32:25 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjgl6DplEftJLI1-awLOJUqk',
+    'createtime' => '1492216345',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjgl6DplEftJLI1-awLOJUqk',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492216345',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 08:32:25 response :
+------------
+
+2017-04-15 08:48:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjgwsqrAPvrQOQ4P_VBlgk6Q]]></FromUserName>
+<CreateTime>1492217297</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 08:48:17 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjgwsqrAPvrQOQ4P_VBlgk6Q',
+    'createtime' => '1492217297',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjgwsqrAPvrQOQ4P_VBlgk6Q',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492217297',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 08:48:17 response :
+------------
+
+2017-04-15 08:50:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjuAmluIcztp9-Upza84kuR8]]></FromUserName>
+<CreateTime>1492217440</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/card]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 08:50:41 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjuAmluIcztp9-Upza84kuR8',
+    'createtime' => '1492217440',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/card',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjuAmluIcztp9-Upza84kuR8',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492217440',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/card',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 08:50:41 response :
+------------
+
+2017-04-15 08:55:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjgl6DplEftJLI1-awLOJUqk]]></FromUserName>
+<CreateTime>1492217724</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 08:55:24 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjgl6DplEftJLI1-awLOJUqk',
+    'createtime' => '1492217724',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjgl6DplEftJLI1-awLOJUqk',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492217724',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 08:55:24 response :
+------------
+
+2017-04-15 09:00:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjhyFlVgdVLfoEwaUa3su9Gg]]></FromUserName>
+<CreateTime>1492218057</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 09:00:57 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjhyFlVgdVLfoEwaUa3su9Gg',
+    'createtime' => '1492218057',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjhyFlVgdVLfoEwaUa3su9Gg',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492218057',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 09:00:57 response :
+------------
+
+2017-04-15 09:07:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjnGScrb_qL3A9oD3xyBDd0E]]></FromUserName>
+<CreateTime>1492218478</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[校医院]]></Content>
+<MsgId>6409029561962088777</MsgId>
+</xml>
+
+2017-04-15 09:07:58 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjnGScrb_qL3A9oD3xyBDd0E',
+    'createtime' => '1492218478',
+    'msgtype' => 'text',
+    'content' => '校医院',
+    'msgid' => '6409029561962088777',
+    'from' => 'ohHvIjnGScrb_qL3A9oD3xyBDd0E',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492218478',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-04-15 09:07:58 response :
+------------
+
+2017-04-15 09:09:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjnGScrb_qL3A9oD3xyBDd0E]]></FromUserName>
+<CreateTime>1492218540</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[校医院时间]]></Content>
+<MsgId>6409029828250061171</MsgId>
+</xml>
+
+2017-04-15 09:09:00 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjnGScrb_qL3A9oD3xyBDd0E',
+    'createtime' => '1492218540',
+    'msgtype' => 'text',
+    'content' => '校医院时间',
+    'msgid' => '6409029828250061171',
+    'from' => 'ohHvIjnGScrb_qL3A9oD3xyBDd0E',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492218540',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-04-15 09:09:00 response :
+------------
+
+2017-04-15 09:11:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjo66OMQbQhe67BpNw7zrzrc]]></FromUserName>
+<CreateTime>1492218667</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/issue]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 09:11:07 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjo66OMQbQhe67BpNw7zrzrc',
+    'createtime' => '1492218667',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/issue',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjo66OMQbQhe67BpNw7zrzrc',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492218667',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/issue',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 09:11:07 response :
+------------
+
+2017-04-15 09:11:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjo66OMQbQhe67BpNw7zrzrc]]></FromUserName>
+<CreateTime>1492218674</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/issue]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 09:11:14 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjo66OMQbQhe67BpNw7zrzrc',
+    'createtime' => '1492218674',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/issue',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjo66OMQbQhe67BpNw7zrzrc',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492218674',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/issue',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 09:11:14 response :
+------------
+
+2017-04-15 09:11:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjt7w0zi2AuSSm5fGmdlGp7Y]]></FromUserName>
+<CreateTime>1492218709</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/issue]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 09:11:49 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjt7w0zi2AuSSm5fGmdlGp7Y',
+    'createtime' => '1492218709',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/issue',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjt7w0zi2AuSSm5fGmdlGp7Y',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492218709',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/issue',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 09:11:49 response :
+------------
+
+2017-04-15 09:12:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjt7w0zi2AuSSm5fGmdlGp7Y]]></FromUserName>
+<CreateTime>1492218757</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/issue]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 09:12:37 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjt7w0zi2AuSSm5fGmdlGp7Y',
+    'createtime' => '1492218757',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/issue',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjt7w0zi2AuSSm5fGmdlGp7Y',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492218757',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/issue',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 09:12:37 response :
+------------
+
+2017-04-15 09:12:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjgl6DplEftJLI1-awLOJUqk]]></FromUserName>
+<CreateTime>1492218774</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 09:12:54 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjgl6DplEftJLI1-awLOJUqk',
+    'createtime' => '1492218774',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjgl6DplEftJLI1-awLOJUqk',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492218774',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 09:12:54 response :
+------------
+
+2017-04-15 09:13:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjgl6DplEftJLI1-awLOJUqk]]></FromUserName>
+<CreateTime>1492218793</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA4NDA5MzQzMw==&from=1#wechat_webview_type=1&wechat_redirect]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 09:13:13 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjgl6DplEftJLI1-awLOJUqk',
+    'createtime' => '1492218793',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA4NDA5MzQzMw==&from=1#wechat_webview_type=1&wechat_redirect',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjgl6DplEftJLI1-awLOJUqk',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492218793',
+    'type' => 'text',
+    'content' => 'http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA4NDA5MzQzMw==&from=1#wechat_webview_type=1&wechat_redirect',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 09:13:13 response :
+------------
+
+2017-04-15 09:20:58 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjg6PN6aFRZFKiNjUZ4Lmx4s]]></FromUserName>
+<CreateTime>1492219258</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/card]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 09:20:59 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjg6PN6aFRZFKiNjUZ4Lmx4s',
+    'createtime' => '1492219258',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/card',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjg6PN6aFRZFKiNjUZ4Lmx4s',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492219258',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/card',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 09:20:59 response :
+------------
+
+2017-04-15 09:26:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjiYcF9eKGJViFkZA26L5Vcs]]></FromUserName>
+<CreateTime>1492219565</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-04-15 09:30:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjq_iYdlZDCnQyxeKKiLwtZ4]]></FromUserName>
+<CreateTime>1492219832</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 09:30:32 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjq_iYdlZDCnQyxeKKiLwtZ4',
+    'createtime' => '1492219832',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjq_iYdlZDCnQyxeKKiLwtZ4',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492219832',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 09:30:32 response :
+------------
+
+2017-04-15 09:31:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjl4OysUhGvfEHvwasymGbqI]]></FromUserName>
+<CreateTime>1492219902</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 09:31:42 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjl4OysUhGvfEHvwasymGbqI',
+    'createtime' => '1492219902',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjl4OysUhGvfEHvwasymGbqI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492219902',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 09:31:42 response :
+------------
+
+2017-04-15 09:56:24 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjq97cJaQPSsy3HivUT-r4lg]]></FromUserName>
+<CreateTime>1492221383</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 09:56:24 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjq97cJaQPSsy3HivUT-r4lg',
+    'createtime' => '1492221383',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjq97cJaQPSsy3HivUT-r4lg',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492221383',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 09:56:24 response :
+------------
+
+2017-04-15 10:21:44 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjtQ_x6erhMFzAzdkeR9tkM4]]></FromUserName>
+<CreateTime>1492222904</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 10:21:44 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjtQ_x6erhMFzAzdkeR9tkM4',
+    'createtime' => '1492222904',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjtQ_x6erhMFzAzdkeR9tkM4',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492222904',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 10:21:44 response :
+------------
+
+2017-04-15 10:22:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjl4OysUhGvfEHvwasymGbqI]]></FromUserName>
+<CreateTime>1492222936</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 10:22:16 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjl4OysUhGvfEHvwasymGbqI',
+    'createtime' => '1492222936',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjl4OysUhGvfEHvwasymGbqI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492222936',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 10:22:16 response :
+------------
+
+2017-04-15 10:28:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjmzJz0fApm64nTq-862vH_Q]]></FromUserName>
+<CreateTime>1492223318</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[普通话水平测试]]></Content>
+<MsgId>6409050349603805175</MsgId>
+</xml>
+
+2017-04-15 10:28:38 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjmzJz0fApm64nTq-862vH_Q',
+    'createtime' => '1492223318',
+    'msgtype' => 'text',
+    'content' => '普通话水平测试',
+    'msgid' => '6409050349603805175',
+    'from' => 'ohHvIjmzJz0fApm64nTq-862vH_Q',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492223318',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-04-15 10:28:38 response :
+------------
+
+2017-04-15 10:29:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjl4OysUhGvfEHvwasymGbqI]]></FromUserName>
+<CreateTime>1492223397</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 10:29:57 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjl4OysUhGvfEHvwasymGbqI',
+    'createtime' => '1492223397',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjl4OysUhGvfEHvwasymGbqI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492223397',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 10:29:57 response :
+------------
+
+2017-04-15 10:30:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjl4OysUhGvfEHvwasymGbqI]]></FromUserName>
+<CreateTime>1492223418</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 10:30:18 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjl4OysUhGvfEHvwasymGbqI',
+    'createtime' => '1492223418',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjl4OysUhGvfEHvwasymGbqI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492223418',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 10:30:18 response :
+------------
+
+2017-04-15 10:42:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjl4OysUhGvfEHvwasymGbqI]]></FromUserName>
+<CreateTime>1492224136</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 10:42:17 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjl4OysUhGvfEHvwasymGbqI',
+    'createtime' => '1492224136',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjl4OysUhGvfEHvwasymGbqI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492224136',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 10:42:17 response :
+------------
+
+2017-04-15 10:48:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjvqqjdAUt3KToK2pJNP8boQ]]></FromUserName>
+<CreateTime>1492224506</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 10:48:26 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjvqqjdAUt3KToK2pJNP8boQ',
+    'createtime' => '1492224506',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjvqqjdAUt3KToK2pJNP8boQ',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492224506',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 10:48:26 response :
+------------
+
+2017-04-15 11:00:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjn4lNXcdVoj_r282uyeXT5s]]></FromUserName>
+<CreateTime>1492225215</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 11:00:15 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjn4lNXcdVoj_r282uyeXT5s',
+    'createtime' => '1492225215',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjn4lNXcdVoj_r282uyeXT5s',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492225215',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 11:00:15 response :
+------------
+
+2017-04-15 11:48:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjtQ_x6erhMFzAzdkeR9tkM4]]></FromUserName>
+<CreateTime>1492228134</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 11:48:54 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjtQ_x6erhMFzAzdkeR9tkM4',
+    'createtime' => '1492228134',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjtQ_x6erhMFzAzdkeR9tkM4',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492228134',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 11:48:54 response :
+------------
+
+2017-04-15 11:52:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjpccRWSx0hkRiksIULLhInM]]></FromUserName>
+<CreateTime>1492228349</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 11:52:30 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjpccRWSx0hkRiksIULLhInM',
+    'createtime' => '1492228349',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjpccRWSx0hkRiksIULLhInM',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492228349',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 11:52:30 response :
+------------
+
+2017-04-15 12:52:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjnDcvlVigkRMcX00ljfq5uk]]></FromUserName>
+<CreateTime>1492231921</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 12:52:02 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjnDcvlVigkRMcX00ljfq5uk',
+    'createtime' => '1492231921',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjnDcvlVigkRMcX00ljfq5uk',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492231921',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 12:52:02 response :
+------------
+
+2017-04-15 12:58:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjmJ6R_4FtstIjx85NvBE8Ms]]></FromUserName>
+<CreateTime>1492232333</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 12:58:54 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjmJ6R_4FtstIjx85NvBE8Ms',
+    'createtime' => '1492232333',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjmJ6R_4FtstIjx85NvBE8Ms',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492232333',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 12:58:54 response :
+------------
+
+2017-04-15 13:02:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjmiMQvRstxm5iZTSTMU6MRw]]></FromUserName>
+<CreateTime>1492232579</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 13:03:00 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjmiMQvRstxm5iZTSTMU6MRw',
+    'createtime' => '1492232579',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjmiMQvRstxm5iZTSTMU6MRw',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492232579',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 13:03:00 response :
+------------
+
+2017-04-15 13:03:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjmiMQvRstxm5iZTSTMU6MRw]]></FromUserName>
+<CreateTime>1492232616</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 13:03:36 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjmiMQvRstxm5iZTSTMU6MRw',
+    'createtime' => '1492232616',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjmiMQvRstxm5iZTSTMU6MRw',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492232616',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 13:03:36 response :
+------------
+
+2017-04-15 13:16:04 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjiefY47hjkua6P8LnJZqDE4]]></FromUserName>
+<CreateTime>1492233364</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 13:16:04 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjiefY47hjkua6P8LnJZqDE4',
+    'createtime' => '1492233364',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjiefY47hjkua6P8LnJZqDE4',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492233364',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 13:16:04 response :
+------------
+
+2017-04-15 13:50:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjpKnsXOIVlIUbHpyBQuQXcA]]></FromUserName>
+<CreateTime>1492235448</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/card]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 13:50:49 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjpKnsXOIVlIUbHpyBQuQXcA',
+    'createtime' => '1492235448',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/card',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjpKnsXOIVlIUbHpyBQuQXcA',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492235448',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/card',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 13:50:49 response :
+------------
+
+2017-04-15 14:14:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjsMFyYBbWlBc7Rn38pJ1_nQ]]></FromUserName>
+<CreateTime>1492236840</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[校园地图]]></Content>
+<MsgId>6409108426151592312</MsgId>
+</xml>
+
+2017-04-15 14:14:01 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjsMFyYBbWlBc7Rn38pJ1_nQ',
+    'createtime' => '1492236840',
+    'msgtype' => 'text',
+    'content' => '校园地图',
+    'msgid' => '6409108426151592312',
+    'from' => 'ohHvIjsMFyYBbWlBc7Rn38pJ1_nQ',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492236840',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-04-15 14:14:01 response :
+------------
+
+2017-04-15 14:29:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjnRoPtfKji78g2evhkdOqPk]]></FromUserName>
+<CreateTime>1492237750</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[学费]]></Content>
+<MsgId>6409112334571832509</MsgId>
+</xml>
+
+2017-04-15 14:29:12 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjnRoPtfKji78g2evhkdOqPk',
+    'createtime' => '1492237750',
+    'msgtype' => 'text',
+    'content' => '学费',
+    'msgid' => '6409112334571832509',
+    'from' => 'ohHvIjnRoPtfKji78g2evhkdOqPk',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492237750',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'userapi',
+  'rule' => '14',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '31',
+    'rid' => '14',
+    'uniacid' => '2',
+    'module' => 'userapi',
+    'content' => '学费',
+    'type' => '2',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-04-15 14:29:12 response :
+------------
+Array:
+FromUserName : gh_fa4da57711fe ;
+ToUserName : ohHvIjnRoPtfKji78g2evhkdOqPk ;
+MsgType : text ;
+Content : 姓名：杨泽铭
+学号：2015160140
+学费：1185
+住宿费：750
+总费用：1935 ;
+
+2017-04-15 14:29:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjsnRwM5_4usyi4xU94cWo0o]]></FromUserName>
+<CreateTime>1492237766</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 14:29:26 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjsnRwM5_4usyi4xU94cWo0o',
+    'createtime' => '1492237766',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjsnRwM5_4usyi4xU94cWo0o',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492237766',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 14:29:26 response :
+------------
+
+2017-04-15 14:29:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjnRoPtfKji78g2evhkdOqPk]]></FromUserName>
+<CreateTime>1492237793</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[学分学费]]></Content>
+<MsgId>6409112519255426275</MsgId>
+</xml>
+
+2017-04-15 14:29:53 params :
+------------
+String:
+array (
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjnRoPtfKji78g2evhkdOqPk',
+    'createtime' => '1492237793',
+    'msgtype' => 'text',
+    'content' => '学分学费',
+    'msgid' => '6409112519255426275',
+    'from' => 'ohHvIjnRoPtfKji78g2evhkdOqPk',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492237793',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+  'module' => 'userapi',
+  'rule' => '14',
+  'priority' => '0',
+  'keyword' => 
+  array (
+    'id' => '31',
+    'rid' => '14',
+    'uniacid' => '2',
+    'module' => 'userapi',
+    'content' => '学费',
+    'type' => '2',
+    'displayorder' => '0',
+    'status' => '1',
+  ),
+)
+
+2017-04-15 14:29:53 response :
+------------
+Array:
+FromUserName : gh_fa4da57711fe ;
+ToUserName : ohHvIjnRoPtfKji78g2evhkdOqPk ;
+MsgType : text ;
+Content : 姓名：杨泽铭
+学号：2015160140
+学费：1185
+住宿费：750
+总费用：1935 ;
+
+2017-04-15 14:37:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjm1UnaslkWVWZRcD_RXJ_9E]]></FromUserName>
+<CreateTime>1492238247</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MjM5NTUwMzQ5Mg==&mid=400407090&idx=1&sn=3b4f39d912599d3c6ee42d94587471bc&scene=1&srcid=0328udFfcjBTHO5C4zhcWudO&from=singlemessage&isappinstalled=0#wechat_redirect]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 14:37:27 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'createtime' => '1492238247',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/s?__biz=MjM5NTUwMzQ5Mg==&mid=400407090&idx=1&sn=3b4f39d912599d3c6ee42d94587471bc&scene=1&srcid=0328udFfcjBTHO5C4zhcWudO&from=singlemessage&isappinstalled=0#wechat_redirect',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492238247',
+    'type' => 'text',
+    'content' => 'http://mp.weixin.qq.com/s?__biz=MjM5NTUwMzQ5Mg==&mid=400407090&idx=1&sn=3b4f39d912599d3c6ee42d94587471bc&scene=1&srcid=0328udFfcjBTHO5C4zhcWudO&from=singlemessage&isappinstalled=0#wechat_redirect',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 14:37:27 response :
+------------
+
+2017-04-15 14:38:07 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjm1UnaslkWVWZRcD_RXJ_9E]]></FromUserName>
+<CreateTime>1492238287</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[南区体育场]]></Content>
+<MsgId>6409114640969270882</MsgId>
+</xml>
+
+2017-04-15 14:38:07 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'createtime' => '1492238287',
+    'msgtype' => 'text',
+    'content' => '南区体育场',
+    'msgid' => '6409114640969270882',
+    'from' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492238287',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-04-15 14:38:07 response :
+------------
+
+2017-04-15 14:38:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjm1UnaslkWVWZRcD_RXJ_9E]]></FromUserName>
+<CreateTime>1492238302</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[南去体育广场]]></Content>
+<MsgId>6409114705393780342</MsgId>
+</xml>
+
+2017-04-15 14:38:23 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'createtime' => '1492238302',
+    'msgtype' => 'text',
+    'content' => '南去体育广场',
+    'msgid' => '6409114705393780342',
+    'from' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492238302',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-04-15 14:38:23 response :
+------------
+
+2017-04-15 14:38:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjm1UnaslkWVWZRcD_RXJ_9E]]></FromUserName>
+<CreateTime>1492238308</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[南区体育广场]]></Content>
+<MsgId>6409114731163584127</MsgId>
+</xml>
+
+2017-04-15 14:38:28 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'createtime' => '1492238308',
+    'msgtype' => 'text',
+    'content' => '南区体育广场',
+    'msgid' => '6409114731163584127',
+    'from' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492238308',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-04-15 14:38:28 response :
+------------
+
+2017-04-15 14:38:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjm1UnaslkWVWZRcD_RXJ_9E]]></FromUserName>
+<CreateTime>1492238314</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[南区体育中心]]></Content>
+<MsgId>6409114756933387911</MsgId>
+</xml>
+
+2017-04-15 14:38:34 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'createtime' => '1492238314',
+    'msgtype' => 'text',
+    'content' => '南区体育中心',
+    'msgid' => '6409114756933387911',
+    'from' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492238314',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-04-15 14:38:34 response :
+------------
+
+2017-04-15 14:38:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjm1UnaslkWVWZRcD_RXJ_9E]]></FromUserName>
+<CreateTime>1492238323</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MjM5NTUwMzQ5Mg==&mid=400407090&idx=1&sn=3b4f39d912599d3c6ee42d94587471bc&scene=1&srcid=0328udFfcjBTHO5C4zhcWudO&from=singlemessage&isappinstalled=0#wechat_redirect]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 14:38:43 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'createtime' => '1492238323',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/s?__biz=MjM5NTUwMzQ5Mg==&mid=400407090&idx=1&sn=3b4f39d912599d3c6ee42d94587471bc&scene=1&srcid=0328udFfcjBTHO5C4zhcWudO&from=singlemessage&isappinstalled=0#wechat_redirect',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492238323',
+    'type' => 'text',
+    'content' => 'http://mp.weixin.qq.com/s?__biz=MjM5NTUwMzQ5Mg==&mid=400407090&idx=1&sn=3b4f39d912599d3c6ee42d94587471bc&scene=1&srcid=0328udFfcjBTHO5C4zhcWudO&from=singlemessage&isappinstalled=0#wechat_redirect',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 14:38:43 response :
+------------
+
+2017-04-15 14:39:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjm1UnaslkWVWZRcD_RXJ_9E]]></FromUserName>
+<CreateTime>1492238348</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[南体]]></Content>
+<MsgId>6409114902962276009</MsgId>
+</xml>
+
+2017-04-15 14:39:09 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'createtime' => '1492238348',
+    'msgtype' => 'text',
+    'content' => '南体',
+    'msgid' => '6409114902962276009',
+    'from' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492238348',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-04-15 14:39:09 response :
+------------
+
+2017-04-15 14:39:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjm1UnaslkWVWZRcD_RXJ_9E]]></FromUserName>
+<CreateTime>1492238376</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[南区运动广场]]></Content>
+<MsgId>6409115023221360311</MsgId>
+</xml>
+
+2017-04-15 14:39:37 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'createtime' => '1492238376',
+    'msgtype' => 'text',
+    'content' => '南区运动广场',
+    'msgid' => '6409115023221360311',
+    'from' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492238376',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-04-15 14:39:37 response :
+------------
+
+2017-04-15 14:41:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjm1UnaslkWVWZRcD_RXJ_9E]]></FromUserName>
+<CreateTime>1492238503</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MjM5NTUwMzQ5Mg==&mid=400407090&idx=1&sn=3b4f39d912599d3c6ee42d94587471bc&scene=1&srcid=0328udFfcjBTHO5C4zhcWudO&from=singlemessage&isappinstalled=0#wechat_redirect]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 14:41:43 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'createtime' => '1492238503',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/s?__biz=MjM5NTUwMzQ5Mg==&mid=400407090&idx=1&sn=3b4f39d912599d3c6ee42d94587471bc&scene=1&srcid=0328udFfcjBTHO5C4zhcWudO&from=singlemessage&isappinstalled=0#wechat_redirect',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492238503',
+    'type' => 'text',
+    'content' => 'http://mp.weixin.qq.com/s?__biz=MjM5NTUwMzQ5Mg==&mid=400407090&idx=1&sn=3b4f39d912599d3c6ee42d94587471bc&scene=1&srcid=0328udFfcjBTHO5C4zhcWudO&from=singlemessage&isappinstalled=0#wechat_redirect',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 14:41:43 response :
+------------
+
+2017-04-15 14:42:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjm1UnaslkWVWZRcD_RXJ_9E]]></FromUserName>
+<CreateTime>1492238534</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[运动场]]></Content>
+<MsgId>6409115701826193207</MsgId>
+</xml>
+
+2017-04-15 14:42:15 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'createtime' => '1492238534',
+    'msgtype' => 'text',
+    'content' => '运动场',
+    'msgid' => '6409115701826193207',
+    'from' => 'ohHvIjm1UnaslkWVWZRcD_RXJ_9E',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492238534',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-04-15 14:42:15 response :
+------------
+
+2017-04-15 14:58:53 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjkd242dJc79vpSOwXd28d1c]]></FromUserName>
+<CreateTime>1492239533</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-04-15 14:58:54 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjkd242dJc79vpSOwXd28d1c',
+    'createtime' => '1492239533',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'ohHvIjkd242dJc79vpSOwXd28d1c',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492239533',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-04-15 14:58:54 response :
+------------
+
+2017-04-15 15:05:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjl3fErnrhKtck36wBkkZxBg]]></FromUserName>
+<CreateTime>1492239958</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MjM5NTUwMzQ5Mg==&mid=400407090&idx=1&sn=3b4f39d912599d3c6ee42d94587471bc&scene=1&srcid=0328udFfcjBTHO5C4zhcWudO&from=singlemessage&isappinstalled=0#wechat_redirect]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 15:05:59 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjl3fErnrhKtck36wBkkZxBg',
+    'createtime' => '1492239958',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/s?__biz=MjM5NTUwMzQ5Mg==&mid=400407090&idx=1&sn=3b4f39d912599d3c6ee42d94587471bc&scene=1&srcid=0328udFfcjBTHO5C4zhcWudO&from=singlemessage&isappinstalled=0#wechat_redirect',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjl3fErnrhKtck36wBkkZxBg',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492239958',
+    'type' => 'text',
+    'content' => 'http://mp.weixin.qq.com/s?__biz=MjM5NTUwMzQ5Mg==&mid=400407090&idx=1&sn=3b4f39d912599d3c6ee42d94587471bc&scene=1&srcid=0328udFfcjBTHO5C4zhcWudO&from=singlemessage&isappinstalled=0#wechat_redirect',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 15:05:59 response :
+------------
+
+2017-04-15 15:06:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjl3fErnrhKtck36wBkkZxBg]]></FromUserName>
+<CreateTime>1492239973</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[老师+卢宁]]></Content>
+<MsgId>6409121882284133355</MsgId>
+</xml>
+
+2017-04-15 15:06:13 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjl3fErnrhKtck36wBkkZxBg',
+    'createtime' => '1492239973',
+    'msgtype' => 'text',
+    'content' => '老师+卢宁',
+    'msgid' => '6409121882284133355',
+    'from' => 'ohHvIjl3fErnrhKtck36wBkkZxBg',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492239973',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-04-15 15:06:13 response :
+------------
+
+2017-04-15 15:06:20 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjl3fErnrhKtck36wBkkZxBg]]></FromUserName>
+<CreateTime>1492239980</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MjM5NTUwMzQ5Mg==&mid=400407090&idx=1&sn=3b4f39d912599d3c6ee42d94587471bc&scene=1&srcid=0328udFfcjBTHO5C4zhcWudO&from=singlemessage&isappinstalled=0#wechat_redirect]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 15:06:21 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjl3fErnrhKtck36wBkkZxBg',
+    'createtime' => '1492239980',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/s?__biz=MjM5NTUwMzQ5Mg==&mid=400407090&idx=1&sn=3b4f39d912599d3c6ee42d94587471bc&scene=1&srcid=0328udFfcjBTHO5C4zhcWudO&from=singlemessage&isappinstalled=0#wechat_redirect',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjl3fErnrhKtck36wBkkZxBg',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492239980',
+    'type' => 'text',
+    'content' => 'http://mp.weixin.qq.com/s?__biz=MjM5NTUwMzQ5Mg==&mid=400407090&idx=1&sn=3b4f39d912599d3c6ee42d94587471bc&scene=1&srcid=0328udFfcjBTHO5C4zhcWudO&from=singlemessage&isappinstalled=0#wechat_redirect',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 15:06:21 response :
+------------
+
+2017-04-15 15:17:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjj1ysWfFlg4mopZUZl84rqY]]></FromUserName>
+<CreateTime>1492240661</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/passport]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 15:17:41 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjj1ysWfFlg4mopZUZl84rqY',
+    'createtime' => '1492240661',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/passport',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjj1ysWfFlg4mopZUZl84rqY',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492240661',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/passport',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 15:17:41 response :
+------------
+
+2017-04-15 15:21:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjrdem_ebPyMahZ9xwLZKDjY]]></FromUserName>
+<CreateTime>1492240894</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 15:21:34 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjrdem_ebPyMahZ9xwLZKDjY',
+    'createtime' => '1492240894',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjrdem_ebPyMahZ9xwLZKDjY',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492240894',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 15:21:34 response :
+------------
+
+2017-04-15 15:30:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjhxuyrdwBmRrhJih4xBD74A]]></FromUserName>
+<CreateTime>1492241429</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-04-15 15:30:29 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjhxuyrdwBmRrhJih4xBD74A',
+    'createtime' => '1492241429',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'ohHvIjhxuyrdwBmRrhJih4xBD74A',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492241429',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-04-15 15:30:30 response :
+------------
+
+2017-04-15 15:41:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjnw6hp60BBgtLLq-jasolwU]]></FromUserName>
+<CreateTime>1492242083</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzA4NDA5MzQzMw==&mid=506589253&idx=1&sn=4446ba06185f692f12e8068408194371&scene=18#wechat_redirect]]></EventKey>
+<MenuId>457653846</MenuId>
+</xml>
+
+2017-04-15 15:41:23 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjnw6hp60BBgtLLq-jasolwU',
+    'createtime' => '1492242083',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/s?__biz=MzA4NDA5MzQzMw==&mid=506589253&idx=1&sn=4446ba06185f692f12e8068408194371&scene=18#wechat_redirect',
+    'menuid' => '457653846',
+    'from' => 'ohHvIjnw6hp60BBgtLLq-jasolwU',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492242083',
+    'type' => 'text',
+    'content' => 'http://mp.weixin.qq.com/s?__biz=MzA4NDA5MzQzMw==&mid=506589253&idx=1&sn=4446ba06185f692f12e8068408194371&scene=18#wechat_redirect',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 15:41:23 response :
+------------
+
+2017-04-15 16:01:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjpoNl1sycMUPJdIJsgLqDDU]]></FromUserName>
+<CreateTime>1492243265</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 16:01:06 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjpoNl1sycMUPJdIJsgLqDDU',
+    'createtime' => '1492243265',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjpoNl1sycMUPJdIJsgLqDDU',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492243265',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 16:01:06 response :
+------------
+
+2017-04-15 16:06:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjhKRGzpWoRSL2A7trWnH1_U]]></FromUserName>
+<CreateTime>1492243608</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 16:06:48 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjhKRGzpWoRSL2A7trWnH1_U',
+    'createtime' => '1492243608',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjhKRGzpWoRSL2A7trWnH1_U',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492243608',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 16:06:48 response :
+------------
+
+2017-04-15 16:14:15 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjq3A1sd05Ym0aH0nfXBNL8g]]></FromUserName>
+<CreateTime>1492244055</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-04-15 16:14:15 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjq3A1sd05Ym0aH0nfXBNL8g',
+    'createtime' => '1492244055',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'ohHvIjq3A1sd05Ym0aH0nfXBNL8g',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492244055',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-04-15 16:14:15 response :
+------------
+
+2017-04-15 16:18:45 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjit63Ra8LWyYObVDct0szCY]]></FromUserName>
+<CreateTime>1492244324</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/board]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 16:18:45 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjit63Ra8LWyYObVDct0szCY',
+    'createtime' => '1492244324',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/board',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjit63Ra8LWyYObVDct0szCY',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492244324',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/board',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 16:18:45 response :
+------------
+
+2017-04-15 16:33:03 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjjfbXgwv-JAscXK_whA4ozo]]></FromUserName>
+<CreateTime>1492245183</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-04-15 16:33:03 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjjfbXgwv-JAscXK_whA4ozo',
+    'createtime' => '1492245183',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'ohHvIjjfbXgwv-JAscXK_whA4ozo',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492245183',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-04-15 16:33:03 response :
+------------
+
+2017-04-15 16:56:57 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjuqnt5sQ1uI4Qe3IiY7MLqQ]]></FromUserName>
+<CreateTime>1492246617</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 16:56:58 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjuqnt5sQ1uI4Qe3IiY7MLqQ',
+    'createtime' => '1492246617',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjuqnt5sQ1uI4Qe3IiY7MLqQ',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492246617',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 16:56:58 response :
+------------
+
+2017-04-15 17:01:40 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjkyTWTg1PRF8-_rawe-QaRY]]></FromUserName>
+<CreateTime>1492246900</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-04-15 17:03:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjmSs7vc2jx6xzxwozfl_bdk]]></FromUserName>
+<CreateTime>1492247013</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>465215725</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2017-04-15 17:03:33 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjmSs7vc2jx6xzxwozfl_bdk',
+    'createtime' => '1492247013',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '465215725',
+    'status' => 'success',
+    'from' => 'ohHvIjmSs7vc2jx6xzxwozfl_bdk',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492247013',
+    'type' => 'event',
+  ),
+)
+
+2017-04-15 17:03:33 response :
+------------
+
+2017-04-15 17:03:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjoJeahJQ_e1svpDIv2YAlS4]]></FromUserName>
+<CreateTime>1492247013</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>465215724</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2017-04-15 17:03:34 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjoJeahJQ_e1svpDIv2YAlS4',
+    'createtime' => '1492247013',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '465215724',
+    'status' => 'success',
+    'from' => 'ohHvIjoJeahJQ_e1svpDIv2YAlS4',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492247013',
+    'type' => 'event',
+  ),
+)
+
+2017-04-15 17:03:34 response :
+------------
+
+2017-04-15 17:04:17 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjkbghGe6sTjfQT1wCcT1Q6s]]></FromUserName>
+<CreateTime>1492247057</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 17:04:17 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjkbghGe6sTjfQT1wCcT1Q6s',
+    'createtime' => '1492247057',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjkbghGe6sTjfQT1wCcT1Q6s',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492247057',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 17:04:17 response :
+------------
+
+2017-04-15 17:05:02 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjsrpZ_60YrMbL3FavbsF8nA]]></FromUserName>
+<CreateTime>1492247102</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/board]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 17:05:02 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjsrpZ_60YrMbL3FavbsF8nA',
+    'createtime' => '1492247102',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/board',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjsrpZ_60YrMbL3FavbsF8nA',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492247102',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/board',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 17:05:03 response :
+------------
+
+2017-04-15 17:05:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjkbghGe6sTjfQT1wCcT1Q6s]]></FromUserName>
+<CreateTime>1492247125</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 17:05:26 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjkbghGe6sTjfQT1wCcT1Q6s',
+    'createtime' => '1492247125',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjkbghGe6sTjfQT1wCcT1Q6s',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492247125',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 17:05:26 response :
+------------
+
+2017-04-15 17:06:00 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjsrpZ_60YrMbL3FavbsF8nA]]></FromUserName>
+<CreateTime>1492247160</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/board]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 17:06:00 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjsrpZ_60YrMbL3FavbsF8nA',
+    'createtime' => '1492247160',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/board',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjsrpZ_60YrMbL3FavbsF8nA',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492247160',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/board',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 17:06:00 response :
+------------
+
+2017-04-15 17:08:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjrhx6HtOxNmrV7ps0OvuZVc]]></FromUserName>
+<CreateTime>1492247290</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 17:08:11 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjrhx6HtOxNmrV7ps0OvuZVc',
+    'createtime' => '1492247290',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjrhx6HtOxNmrV7ps0OvuZVc',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492247290',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 17:08:11 response :
+------------
+
+2017-04-15 17:11:31 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjjruO-X9GGSbAQwkklRJ-Vw]]></FromUserName>
+<CreateTime>1492247490</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-04-15 17:11:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjr_02SfApjUNVqs3Wq_LyCc]]></FromUserName>
+<CreateTime>1492247502</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 17:11:42 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjr_02SfApjUNVqs3Wq_LyCc',
+    'createtime' => '1492247502',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjr_02SfApjUNVqs3Wq_LyCc',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492247502',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 17:11:42 response :
+------------
+
+2017-04-15 17:11:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjiNjattwQ6ca3OvTEARcu20]]></FromUserName>
+<CreateTime>1492247507</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 17:11:48 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjiNjattwQ6ca3OvTEARcu20',
+    'createtime' => '1492247507',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjiNjattwQ6ca3OvTEARcu20',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492247507',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 17:11:48 response :
+------------
+
+2017-04-15 17:31:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjmBlofFRx_TIOsqrmeAvGnY]]></FromUserName>
+<CreateTime>1492248701</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[unsubscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-04-15 17:33:42 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjlWZEz8cTu3emEk981tes_U]]></FromUserName>
+<CreateTime>1492248822</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 17:33:42 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjlWZEz8cTu3emEk981tes_U',
+    'createtime' => '1492248822',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjlWZEz8cTu3emEk981tes_U',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492248822',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 17:33:42 response :
+------------
+
+2017-04-15 17:34:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjiefY47hjkua6P8LnJZqDE4]]></FromUserName>
+<CreateTime>1492248869</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 17:34:29 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjiefY47hjkua6P8LnJZqDE4',
+    'createtime' => '1492248869',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjiefY47hjkua6P8LnJZqDE4',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492248869',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 17:34:29 response :
+------------
+
+2017-04-15 17:49:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjvDmXWxAc_vKnbN8D03t-wg]]></FromUserName>
+<CreateTime>1492249771</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/card]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 17:49:32 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjvDmXWxAc_vKnbN8D03t-wg',
+    'createtime' => '1492249771',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/card',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjvDmXWxAc_vKnbN8D03t-wg',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492249771',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/card',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 17:49:32 response :
+------------
+
+2017-04-15 17:55:39 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjmmN1aa_bPD1W_vGUXJMOLI]]></FromUserName>
+<CreateTime>1492250139</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-04-15 17:55:39 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjmmN1aa_bPD1W_vGUXJMOLI',
+    'createtime' => '1492250139',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'ohHvIjmmN1aa_bPD1W_vGUXJMOLI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492250139',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-04-15 17:55:39 response :
+------------
+
+2017-04-15 17:57:32 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjvDmXWxAc_vKnbN8D03t-wg]]></FromUserName>
+<CreateTime>1492250252</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/passport]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 17:57:32 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjvDmXWxAc_vKnbN8D03t-wg',
+    'createtime' => '1492250252',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/passport',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjvDmXWxAc_vKnbN8D03t-wg',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492250252',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/passport',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 17:57:32 response :
+------------
+
+2017-04-15 18:12:37 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjoJeahJQ_e1svpDIv2YAlS4]]></FromUserName>
+<CreateTime>1492251157</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>465218886</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2017-04-15 18:12:37 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjoJeahJQ_e1svpDIv2YAlS4',
+    'createtime' => '1492251157',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '465218886',
+    'status' => 'success',
+    'from' => 'ohHvIjoJeahJQ_e1svpDIv2YAlS4',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492251157',
+    'type' => 'event',
+  ),
+)
+
+2017-04-15 18:12:37 response :
+------------
+
+2017-04-15 18:12:38 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjmSs7vc2jx6xzxwozfl_bdk]]></FromUserName>
+<CreateTime>1492251158</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>465218889</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+
+2017-04-15 18:12:38 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjmSs7vc2jx6xzxwozfl_bdk',
+    'createtime' => '1492251158',
+    'msgtype' => 'event',
+    'event' => 'TEMPLATESENDJOBFINISH',
+    'msgid' => '465218889',
+    'status' => 'success',
+    'from' => 'ohHvIjmSs7vc2jx6xzxwozfl_bdk',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492251158',
+    'type' => 'event',
+  ),
+)
+
+2017-04-15 18:12:38 response :
+------------
+
+2017-04-15 18:30:28 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjs8NXY9Uc4d8hobmasWz31w]]></FromUserName>
+<CreateTime>1492252228</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 18:30:28 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjs8NXY9Uc4d8hobmasWz31w',
+    'createtime' => '1492252228',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjs8NXY9Uc4d8hobmasWz31w',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492252228',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 18:30:28 response :
+------------
+
+2017-04-15 18:30:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjs8NXY9Uc4d8hobmasWz31w]]></FromUserName>
+<CreateTime>1492252241</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 18:30:41 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjs8NXY9Uc4d8hobmasWz31w',
+    'createtime' => '1492252241',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjs8NXY9Uc4d8hobmasWz31w',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492252241',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 18:30:41 response :
+------------
+
+2017-04-15 18:47:09 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjrL4Gi_FdWCxRzjlAfosaYg]]></FromUserName>
+<CreateTime>1492253229</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/board]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 18:47:09 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjrL4Gi_FdWCxRzjlAfosaYg',
+    'createtime' => '1492253229',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/board',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjrL4Gi_FdWCxRzjlAfosaYg',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492253229',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/board',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 18:47:09 response :
+------------
+
+2017-04-15 18:47:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjrL4Gi_FdWCxRzjlAfosaYg]]></FromUserName>
+<CreateTime>1492253256</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA4NDA5MzQzMw==&from=1#wechat_webview_type=1&wechat_redirect]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 18:47:36 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjrL4Gi_FdWCxRzjlAfosaYg',
+    'createtime' => '1492253256',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA4NDA5MzQzMw==&from=1#wechat_webview_type=1&wechat_redirect',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjrL4Gi_FdWCxRzjlAfosaYg',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492253256',
+    'type' => 'text',
+    'content' => 'http://mp.weixin.qq.com/mp/getmasssendmsg?__biz=MzA4NDA5MzQzMw==&from=1#wechat_webview_type=1&wechat_redirect',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 18:47:36 response :
+------------
+
+2017-04-15 19:18:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjgQLt-YHzayVJKsISNOVTsI]]></FromUserName>
+<CreateTime>1492255089</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 19:18:10 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjgQLt-YHzayVJKsISNOVTsI',
+    'createtime' => '1492255089',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjgQLt-YHzayVJKsISNOVTsI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492255089',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 19:18:10 response :
+------------
+
+2017-04-15 19:18:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjgB_0irYFYZeGQ_hCB6EYrU]]></FromUserName>
+<CreateTime>1492255126</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 19:18:46 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjgB_0irYFYZeGQ_hCB6EYrU',
+    'createtime' => '1492255126',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjgB_0irYFYZeGQ_hCB6EYrU',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492255126',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 19:18:46 response :
+------------
+
+2017-04-15 19:20:34 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjka7RMRkNW_D3I7mi6uEASM]]></FromUserName>
+<CreateTime>1492255234</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzA4NDA5MzQzMw==&mid=506589253&idx=1&sn=4446ba06185f692f12e8068408194371&scene=18#wechat_redirect]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 19:20:34 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjka7RMRkNW_D3I7mi6uEASM',
+    'createtime' => '1492255234',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/s?__biz=MzA4NDA5MzQzMw==&mid=506589253&idx=1&sn=4446ba06185f692f12e8068408194371&scene=18#wechat_redirect',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjka7RMRkNW_D3I7mi6uEASM',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492255234',
+    'type' => 'text',
+    'content' => 'http://mp.weixin.qq.com/s?__biz=MzA4NDA5MzQzMw==&mid=506589253&idx=1&sn=4446ba06185f692f12e8068408194371&scene=18#wechat_redirect',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 19:20:34 response :
+------------
+
+2017-04-15 19:58:21 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjuH8PJWBy1YyyQrs2NQx30U]]></FromUserName>
+<CreateTime>1492257501</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 19:58:21 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjuH8PJWBy1YyyQrs2NQx30U',
+    'createtime' => '1492257501',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjuH8PJWBy1YyyQrs2NQx30U',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492257501',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 19:58:21 response :
+------------
+
+2017-04-15 19:58:41 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjuH8PJWBy1YyyQrs2NQx30U]]></FromUserName>
+<CreateTime>1492257521</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 19:58:41 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjuH8PJWBy1YyyQrs2NQx30U',
+    'createtime' => '1492257521',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjuH8PJWBy1YyyQrs2NQx30U',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492257521',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 19:58:41 response :
+------------
+
+2017-04-15 19:59:59 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjpHVlCqO57Ap4GH2eL9W6rI]]></FromUserName>
+<CreateTime>1492257599</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 19:59:59 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjpHVlCqO57Ap4GH2eL9W6rI',
+    'createtime' => '1492257599',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjpHVlCqO57Ap4GH2eL9W6rI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492257599',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 19:59:59 response :
+------------
+
+2017-04-15 20:00:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjpHVlCqO57Ap4GH2eL9W6rI]]></FromUserName>
+<CreateTime>1492257617</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 20:00:18 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjpHVlCqO57Ap4GH2eL9W6rI',
+    'createtime' => '1492257617',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjpHVlCqO57Ap4GH2eL9W6rI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492257617',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 20:00:18 response :
+------------
+
+2017-04-15 20:10:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjkaMbYfjIpa1X0yrI1_oJUs]]></FromUserName>
+<CreateTime>1492258213</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 20:10:13 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjkaMbYfjIpa1X0yrI1_oJUs',
+    'createtime' => '1492258213',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjkaMbYfjIpa1X0yrI1_oJUs',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492258213',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 20:10:13 response :
+------------
+
+2017-04-15 20:27:05 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjrd-K5GiTcELYRFshvnFL8U]]></FromUserName>
+<CreateTime>1492259225</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 20:27:05 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjrd-K5GiTcELYRFshvnFL8U',
+    'createtime' => '1492259225',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjrd-K5GiTcELYRFshvnFL8U',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492259225',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 20:27:05 response :
+------------
+
+2017-04-15 20:28:35 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjvZJ4JtrlzYaYXpDwciznd8]]></FromUserName>
+<CreateTime>1492259315</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 20:28:35 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjvZJ4JtrlzYaYXpDwciznd8',
+    'createtime' => '1492259315',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjvZJ4JtrlzYaYXpDwciznd8',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492259315',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 20:28:35 response :
+------------
+
+2017-04-15 20:28:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjvZJ4JtrlzYaYXpDwciznd8]]></FromUserName>
+<CreateTime>1492259331</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzA4NDA5MzQzMw==&mid=506589253&idx=1&sn=4446ba06185f692f12e8068408194371&scene=18#wechat_redirect]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 20:28:52 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjvZJ4JtrlzYaYXpDwciznd8',
+    'createtime' => '1492259331',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/s?__biz=MzA4NDA5MzQzMw==&mid=506589253&idx=1&sn=4446ba06185f692f12e8068408194371&scene=18#wechat_redirect',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjvZJ4JtrlzYaYXpDwciznd8',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492259331',
+    'type' => 'text',
+    'content' => 'http://mp.weixin.qq.com/s?__biz=MzA4NDA5MzQzMw==&mid=506589253&idx=1&sn=4446ba06185f692f12e8068408194371&scene=18#wechat_redirect',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 20:28:52 response :
+------------
+
+2017-04-15 20:29:25 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjvZJ4JtrlzYaYXpDwciznd8]]></FromUserName>
+<CreateTime>1492259365</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/board]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 20:29:25 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjvZJ4JtrlzYaYXpDwciznd8',
+    'createtime' => '1492259365',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/board',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjvZJ4JtrlzYaYXpDwciznd8',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492259365',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/board',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 20:29:25 response :
+------------
+
+2017-04-15 20:30:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjtV9tX3AaWUXs3i8pYIaSuI]]></FromUserName>
+<CreateTime>1492259429</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 20:30:29 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjtV9tX3AaWUXs3i8pYIaSuI',
+    'createtime' => '1492259429',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjtV9tX3AaWUXs3i8pYIaSuI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492259429',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 20:30:29 response :
+------------
+
+2017-04-15 20:33:54 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjtV9tX3AaWUXs3i8pYIaSuI]]></FromUserName>
+<CreateTime>1492259634</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 20:33:54 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjtV9tX3AaWUXs3i8pYIaSuI',
+    'createtime' => '1492259634',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjtV9tX3AaWUXs3i8pYIaSuI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492259634',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 20:33:54 response :
+------------
+
+2017-04-15 20:34:01 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjtV9tX3AaWUXs3i8pYIaSuI]]></FromUserName>
+<CreateTime>1492259641</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 20:34:01 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjtV9tX3AaWUXs3i8pYIaSuI',
+    'createtime' => '1492259641',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjtV9tX3AaWUXs3i8pYIaSuI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492259641',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 20:34:01 response :
+------------
+
+2017-04-15 20:35:11 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjlgC_S1vbLeDK-YXjcgiy6o]]></FromUserName>
+<CreateTime>1492259711</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[subscribe]]></Event>
+<EventKey><![CDATA[]]></EventKey>
+</xml>
+
+2017-04-15 20:35:12 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjlgC_S1vbLeDK-YXjcgiy6o',
+    'createtime' => '1492259711',
+    'msgtype' => 'event',
+    'event' => 'subscribe',
+    'eventkey' => '',
+    'from' => 'ohHvIjlgC_S1vbLeDK-YXjcgiy6o',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492259711',
+    'type' => 'text',
+    'redirection' => true,
+    'source' => 'subscribe',
+  ),
+)
+
+2017-04-15 20:35:12 response :
+------------
+
+2017-04-15 20:39:49 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjtV9tX3AaWUXs3i8pYIaSuI]]></FromUserName>
+<CreateTime>1492259989</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 20:39:49 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjtV9tX3AaWUXs3i8pYIaSuI',
+    'createtime' => '1492259989',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjtV9tX3AaWUXs3i8pYIaSuI',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492259989',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 20:39:49 response :
+------------
+
+2017-04-15 21:05:51 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjgDTP5jc-gsTh6qn2KLjUf8]]></FromUserName>
+<CreateTime>1492261551</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 21:05:51 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjgDTP5jc-gsTh6qn2KLjUf8',
+    'createtime' => '1492261551',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjgDTP5jc-gsTh6qn2KLjUf8',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492261551',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 21:05:51 response :
+------------
+
+2017-04-15 21:54:29 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjj3HxJC3dICiFmyD9m5anLc]]></FromUserName>
+<CreateTime>1492264469</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/board]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 21:54:29 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjj3HxJC3dICiFmyD9m5anLc',
+    'createtime' => '1492264469',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/board',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjj3HxJC3dICiFmyD9m5anLc',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492264469',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/board',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 21:54:29 response :
+------------
+
+2017-04-15 21:55:18 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjosHgj0iG1nccYZl8wcUWJ8]]></FromUserName>
+<CreateTime>1492264518</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[工时]]></Content>
+<MsgId>6409227302256431171</MsgId>
+</xml>
+
+2017-04-15 21:55:18 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjosHgj0iG1nccYZl8wcUWJ8',
+    'createtime' => '1492264518',
+    'msgtype' => 'text',
+    'content' => '工时',
+    'msgid' => '6409227302256431171',
+    'from' => 'ohHvIjosHgj0iG1nccYZl8wcUWJ8',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492264518',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-04-15 21:55:18 response :
+------------
+
+2017-04-15 21:57:14 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjkgJxGnBIeAp9-eVFmuVodU]]></FromUserName>
+<CreateTime>1492264633</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 21:57:14 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjkgJxGnBIeAp9-eVFmuVodU',
+    'createtime' => '1492264633',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjkgJxGnBIeAp9-eVFmuVodU',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492264633',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 21:57:14 response :
+------------
+
+2017-04-15 21:57:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjkgJxGnBIeAp9-eVFmuVodU]]></FromUserName>
+<CreateTime>1492264672</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 21:57:52 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjkgJxGnBIeAp9-eVFmuVodU',
+    'createtime' => '1492264672',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjkgJxGnBIeAp9-eVFmuVodU',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492264672',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 21:57:52 response :
+------------
+
+2017-04-15 22:05:50 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjkgJxGnBIeAp9-eVFmuVodU]]></FromUserName>
+<CreateTime>1492265149</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 22:05:50 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjkgJxGnBIeAp9-eVFmuVodU',
+    'createtime' => '1492265149',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjkgJxGnBIeAp9-eVFmuVodU',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492265149',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 22:05:50 response :
+------------
+
+2017-04-15 22:15:23 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjqYNDU9rOpERYXxekC60ELo]]></FromUserName>
+<CreateTime>1492265723</CreateTime>
+<MsgType><![CDATA[text]]></MsgType>
+<Content><![CDATA[代理]]></Content>
+<MsgId>6409232477692023525</MsgId>
+</xml>
+
+2017-04-15 22:15:23 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjqYNDU9rOpERYXxekC60ELo',
+    'createtime' => '1492265723',
+    'msgtype' => 'text',
+    'content' => '代理',
+    'msgid' => '6409232477692023525',
+    'from' => 'ohHvIjqYNDU9rOpERYXxekC60ELo',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492265723',
+    'type' => 'text',
+    'event' => NULL,
+    'redirection' => false,
+    'source' => NULL,
+  ),
+)
+
+2017-04-15 22:15:23 response :
+------------
+
+2017-04-15 22:34:16 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjsnKiKj2CE9Y0llZLST-xyw]]></FromUserName>
+<CreateTime>1492266856</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/board]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 22:34:16 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjsnKiKj2CE9Y0llZLST-xyw',
+    'createtime' => '1492266856',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/board',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjsnKiKj2CE9Y0llZLST-xyw',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492266856',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/board',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 22:34:16 response :
+------------
+
+2017-04-15 22:35:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjsnKiKj2CE9Y0llZLST-xyw]]></FromUserName>
+<CreateTime>1492266952</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/board]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 22:35:52 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjsnKiKj2CE9Y0llZLST-xyw',
+    'createtime' => '1492266952',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/board',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjsnKiKj2CE9Y0llZLST-xyw',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492266952',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/board',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 22:35:52 response :
+------------
+
+2017-04-15 22:36:43 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjsnKiKj2CE9Y0llZLST-xyw]]></FromUserName>
+<CreateTime>1492267003</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/board]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 22:36:43 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjsnKiKj2CE9Y0llZLST-xyw',
+    'createtime' => '1492267003',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/board',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjsnKiKj2CE9Y0llZLST-xyw',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492267003',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/board',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 22:36:43 response :
+------------
+
+2017-04-15 22:50:33 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjkjFJm8cwxNamdxWRpwM9-Y]]></FromUserName>
+<CreateTime>1492267833</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 22:50:33 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjkjFJm8cwxNamdxWRpwM9-Y',
+    'createtime' => '1492267833',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjkjFJm8cwxNamdxWRpwM9-Y',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492267833',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 22:50:33 response :
+------------
+
+2017-04-15 22:50:52 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjkjFJm8cwxNamdxWRpwM9-Y]]></FromUserName>
+<CreateTime>1492267851</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 22:50:52 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjkjFJm8cwxNamdxWRpwM9-Y',
+    'createtime' => '1492267851',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjkjFJm8cwxNamdxWRpwM9-Y',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492267851',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 22:50:52 response :
+------------
+
+2017-04-15 22:55:10 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjr1Tm5UYfyTZ596vibxfd5E]]></FromUserName>
+<CreateTime>1492268110</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 22:55:10 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjr1Tm5UYfyTZ596vibxfd5E',
+    'createtime' => '1492268110',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjr1Tm5UYfyTZ596vibxfd5E',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492268110',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 22:55:10 response :
+------------
+
+2017-04-15 23:04:36 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjqUBYVKRizUUnFXY1nBRH8w]]></FromUserName>
+<CreateTime>1492268676</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 23:04:36 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjqUBYVKRizUUnFXY1nBRH8w',
+    'createtime' => '1492268676',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjqUBYVKRizUUnFXY1nBRH8w',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492268676',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 23:04:36 response :
+------------
+
+2017-04-15 23:06:13 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjtQ_x6erhMFzAzdkeR9tkM4]]></FromUserName>
+<CreateTime>1492268773</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 23:06:13 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjtQ_x6erhMFzAzdkeR9tkM4',
+    'createtime' => '1492268773',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjtQ_x6erhMFzAzdkeR9tkM4',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492268773',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 23:06:14 response :
+------------
+
+2017-04-15 23:10:48 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjvRuJsORjpMO7ya-beR7pjk]]></FromUserName>
+<CreateTime>1492269048</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://mp.weixin.qq.com/s?__biz=MzA4NDA5MzQzMw==&mid=506589253&idx=1&sn=4446ba06185f692f12e8068408194371&scene=18#wechat_redirect]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 23:10:48 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjvRuJsORjpMO7ya-beR7pjk',
+    'createtime' => '1492269048',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://mp.weixin.qq.com/s?__biz=MzA4NDA5MzQzMw==&mid=506589253&idx=1&sn=4446ba06185f692f12e8068408194371&scene=18#wechat_redirect',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjvRuJsORjpMO7ya-beR7pjk',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492269048',
+    'type' => 'text',
+    'content' => 'http://mp.weixin.qq.com/s?__biz=MzA4NDA5MzQzMw==&mid=506589253&idx=1&sn=4446ba06185f692f12e8068408194371&scene=18#wechat_redirect',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 23:10:48 response :
+------------
+
+2017-04-15 23:16:27 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjo84KqKkdJSf4DjOvA31LXg]]></FromUserName>
+<CreateTime>1492269386</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 23:16:27 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjo84KqKkdJSf4DjOvA31LXg',
+    'createtime' => '1492269386',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjo84KqKkdJSf4DjOvA31LXg',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492269386',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 23:16:27 response :
+------------
+
+2017-04-15 23:20:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjiUG7YRaEHNpNVdduRfppHs]]></FromUserName>
+<CreateTime>1492269626</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 23:20:26 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjiUG7YRaEHNpNVdduRfppHs',
+    'createtime' => '1492269626',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjiUG7YRaEHNpNVdduRfppHs',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492269626',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 23:20:26 response :
+------------
+
+2017-04-15 23:44:46 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjkuELA4rQzQHwRDiTynxb98]]></FromUserName>
+<CreateTime>1492271086</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 23:44:46 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjkuELA4rQzQHwRDiTynxb98',
+    'createtime' => '1492271086',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjkuELA4rQzQHwRDiTynxb98',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492271086',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 23:44:47 response :
+------------
+
+2017-04-15 23:52:06 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjgtCNG_buEj1Tshopmfup8M]]></FromUserName>
+<CreateTime>1492271525</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 23:52:06 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjgtCNG_buEj1Tshopmfup8M',
+    'createtime' => '1492271525',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjgtCNG_buEj1Tshopmfup8M',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492271525',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 23:52:06 response :
+------------
+
+2017-04-15 23:58:26 trace :
+------------
+String:
+<xml><ToUserName><![CDATA[gh_fa4da57711fe]]></ToUserName>
+<FromUserName><![CDATA[ohHvIjgSF8QlbZSuf_-Hke7iI2m8]]></FromUserName>
+<CreateTime>1492271906</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[VIEW]]></Event>
+<EventKey><![CDATA[http://www.wacxt.cn/powerusage]]></EventKey>
+<MenuId>462911318</MenuId>
+</xml>
+
+2017-04-15 23:58:27 params :
+------------
+String:
+array (
+  'rule' => -2,
+  'module' => '',
+  'message' => 
+  array (
+    'tousername' => 'gh_fa4da57711fe',
+    'fromusername' => 'ohHvIjgSF8QlbZSuf_-Hke7iI2m8',
+    'createtime' => '1492271906',
+    'msgtype' => 'event',
+    'event' => 'VIEW',
+    'eventkey' => 'http://www.wacxt.cn/powerusage',
+    'menuid' => '462911318',
+    'from' => 'ohHvIjgSF8QlbZSuf_-Hke7iI2m8',
+    'to' => 'gh_fa4da57711fe',
+    'time' => '1492271906',
+    'type' => 'text',
+    'content' => 'http://www.wacxt.cn/powerusage',
+    'redirection' => true,
+    'source' => 'VIEW',
+  ),
+)
+
+2017-04-15 23:58:27 response :
+------------
+
